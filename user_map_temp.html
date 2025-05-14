@@ -1,0 +1,72 @@
+
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>Bản đồ cố định</title>
+                    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+                    <style>
+                        #map {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background-color: #e8e8e8;
+                        }
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                        }
+                        .leaflet-control-container {
+                            display: none !important;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div id="map"></div>
+                    
+                    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+                    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+                    <script>
+                        var map = L.map('map', {
+                            zoomControl: false,
+                            scrollWheelZoom: false,
+                            doubleClickZoom: false,
+                            touchZoom: false,
+                            boxZoom: false,
+                            keyboard: false,
+                            dragging: true,
+                            zoomSnap: 0,
+                            zoomDelta: 0
+                        }).setView([21.005655, 105.83350999999999], 18);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            attribution: '© OpenStreetMap',
+                            noWrap: true,
+                            bounds: [[21.00017, 105.82875], [21.01114, 105.83827]],
+                            minZoom: 18,
+                            maxZoom: 18
+                        }).addTo(map);
+                        
+                        window.markers = [];
+                        window.currentMapClick = null;
+                        window.directionLine = null;
+                        var highlightedWays = {};
+                        
+                        new QWebChannel(qt.webChannelTransport, function(channel) {
+                            window.pyObj = channel.objects.pyObj;
+                        });
+                        
+                        map.setZoom(18);
+                        map.options.minZoom = 18;
+                        map.options.maxZoom = 18;
+
+                        if (!window.highlightedWays) {
+                            window.highlightedWays = {};
+                        }
+                    </script>
+                </body>
+            </html>
+            
