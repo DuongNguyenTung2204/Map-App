@@ -54,7 +54,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Admin Window"))
-        self.editTrafficButton.setText(_translate("MainWindow", "Chỉnh sửa giao thông"))
+        self.editTrafficButton.setText(_translate("MainWindow", "Thêm đoạn đường tắc"))
         self.deleteButton.setText(_translate("MainWindow", "Xóa chỉnh sửa"))
         self.logoutButton.setText(_translate("MainWindow", "Đăng xuất"))
 

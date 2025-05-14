@@ -141,6 +141,7 @@ class AdminMainWindow(QMainWindow):
         layout.addWidget(self.web_view)
 
         self.editing_traffic = False
+        self.deleting_traffic = False  # Thêm trạng thái xóa
         self.selected_way_id = None
         self.selected_coords = None
         self.highlighted_ways = set()
@@ -315,27 +316,65 @@ class AdminMainWindow(QMainWindow):
         try:
             way_id, way_nodes = find_nearest_way(marker_lat, marker_lon)
             if way_id and way_nodes:
-                self.selected_way_id = way_id
-                self.selected_coords = way_nodes
-                coords_json = json.dumps(way_nodes)
-                self.web_view.page().runJavaScript(f"""
-                    if (window.highlightedWay) {{
-                        map.removeLayer(window.highlightedWay);
-                    }}
-                    window.highlightedWay = L.polyline({coords_json}, {{
-                        color: 'red',
-                        weight: 5,
-                        opacity: 0.8
-                    }}).addTo(map);
-                    try {{
-                        console.log('Selected way_id:', '{way_id}');
-                        window.pyObj.waySelected('{way_id}');
-                    }} catch (e) {{
-                        console.error('Error calling waySelected:', e);
-                    }}
-                """)
-                logging.info(f"Highlighted way_id={way_id} with {len(way_nodes)} coordinates")
-                return way_id
+                if self.deleting_traffic:
+                    # Kiểm tra xem way_id có trong traffic_changes không
+                    query = "SELECT way_id FROM traffic_changes WHERE way_id = %s LIMIT 1"
+                    self.cursor.execute(query, (way_id,))
+                    result = self.cursor.fetchone()
+                    if not result:
+                        logging.warning(f"Đoạn đường way_id={way_id} không có trong traffic_changes")
+                        QMessageBox.warning(
+                            self,
+                            "Cảnh báo",
+                            "Đoạn đường này không bị tắc. Vui lòng chọn đoạn đường khác."
+                        )
+                        return None
+
+                    # Highlight màu xanh lá
+                    self.selected_way_id = way_id
+                    self.selected_coords = way_nodes
+                    coords_json = json.dumps(way_nodes)
+                    self.web_view.page().runJavaScript(f"""
+                        if (window.highlightedWay) {{
+                            map.removeLayer(window.highlightedWay);
+                        }}
+                        window.highlightedWay = L.polyline({coords_json}, {{
+                            color: 'green',
+                            weight: 5,
+                            opacity: 0.8
+                        }}).addTo(map);
+                        try {{
+                            console.log('Selected way_id:', '{way_id}');
+                            window.pyObj.waySelected('{way_id}');
+                        }} catch (e) {{
+                            console.error('Error calling waySelected:', e);
+                        }}
+                    """)
+                    logging.info(f"Highlighted way_id={way_id} with {len(way_nodes)} coordinates in green for deletion")
+                    return way_id
+                else:
+                    # Highlight màu đỏ (chế độ thêm)
+                    self.selected_way_id = way_id
+                    self.selected_coords = way_nodes
+                    coords_json = json.dumps(way_nodes)
+                    self.web_view.page().runJavaScript(f"""
+                        if (window.highlightedWay) {{
+                            map.removeLayer(window.highlightedWay);
+                        }}
+                        window.highlightedWay = L.polyline({coords_json}, {{
+                            color: 'red',
+                            weight: 5,
+                            opacity: 0.8
+                        }}).addTo(map);
+                        try {{
+                            console.log('Selected way_id:', '{way_id}');
+                            window.pyObj.waySelected('{way_id}');
+                        }} catch (e) {{
+                            console.error('Error calling waySelected:', e);
+                        }}
+                    """)
+                    logging.info(f"Highlighted way_id={way_id} with {len(way_nodes)} coordinates")
+                    return way_id
             else:
                 logging.warning("Không tìm thấy đoạn đường trong khu vực hoặc không có tọa độ")
                 QMessageBox.warning(self, "Cảnh báo", "Không tìm thấy đoạn đường trong khu vực.")
@@ -350,10 +389,11 @@ class AdminMainWindow(QMainWindow):
             return None
 
     def toggle_traffic_editing(self):
-        logging.info(f"toggle_traffic_editing: editing_traffic={self.editing_traffic}")
-        if not self.editing_traffic:
+        logging.info(f"toggle_traffic_editing: editing_traffic={self.editing_traffic}, deleting_traffic={self.deleting_traffic}")
+        if not self.editing_traffic and not self.deleting_traffic:
             self.editing_traffic = True
             self.ui.editTrafficButton.setText("Lưu")
+            self.ui.deleteButton.setEnabled(False)  # Vô hiệu hóa nút "Xóa chỉnh sửa"
             self.web_view.page().runJavaScript("""
                 document.getElementById('map').style.cursor = 'pointer';
                 if (window.currentMapClick) {
@@ -366,10 +406,12 @@ class AdminMainWindow(QMainWindow):
             """)
             logging.info("Bắt đầu chỉnh sửa giao thông")
         else:
-            self.editing_traffic = False
-            self.ui.editTrafficButton.setText("Chỉnh sửa giao thông")
-            logging.info("Gọi save_traffic_changes")
-            self.save_traffic_changes()
+            if self.editing_traffic:
+                self.editing_traffic = False
+                self.save_traffic_changes()
+
+            self.ui.editTrafficButton.setText("Thêm đoạn đường tắc")
+            self.ui.deleteButton.setEnabled(True)  # Kích hoạt lại nút "Xóa chỉnh sửa"
             self.web_view.page().runJavaScript("""
                 document.getElementById('map').style.cursor = '';
                 if (window.currentMapClick) {
@@ -445,6 +487,85 @@ class AdminMainWindow(QMainWindow):
             logging.warning("save_traffic_changes: Chưa chọn đoạn đường hoặc không có tọa độ")
             QMessageBox.warning(self, "Cảnh báo", "Chưa chọn đoạn đường hoặc không có tọa độ để lưu!")
 
+    def delete_traffic_editing(self):
+        logging.info(f"delete_traffic_editing: deleting_traffic={self.deleting_traffic}")
+        if not self.deleting_traffic and not self.editing_traffic:
+            # Bắt đầu chế độ xóa
+            self.deleting_traffic = True
+            self.ui.deleteButton.setText("Lưu")  # Đổi nút thành "Lưu"
+            QMessageBox.information(self, "Thông báo", "Hãy chọn 1 đoạn đường bị tắc để xóa")
+            self.ui.editTrafficButton.setEnabled(False)  # Vô hiệu hóa nút "Thêm đoạn đường tắc"
+            self.web_view.page().runJavaScript("""
+                document.getElementById('map').style.cursor = 'pointer';
+                if (window.currentMapClick) {
+                    map.off('click', window.currentMapClick);
+                }
+                window.currentMapClick = function(e) {
+                    window.pyObj.findNearestWay(e.latlng.lat, e.latlng.lng);
+                };
+                map.on('click', window.currentMapClick);
+            """)
+            logging.info("Bắt đầu xóa chỉnh sửa giao thông")
+        elif self.deleting_traffic:
+            # Khi nhấn "Lưu", xử lý xóa và kết thúc chế độ xóa
+            self.delete_traffic_changes()
+            self.web_view.page().runJavaScript("""
+                document.getElementById('map').style.cursor = '';
+                if (window.currentMapClick) {
+                    map.off('click', window.currentMapClick);
+                    window.currentMapClick = null;
+                }
+            """)
+            logging.info("Kết thúc xóa chỉnh sửa giao thông")
+
+    def delete_traffic_changes(self):
+        logging.info("Bắt đầu delete_traffic_changes")
+        if self.selected_way_id:
+            try:
+                if not self.db.is_connected():
+                    logging.warning("CSDL không kết nối, thử kết nối lại")
+                    self.db = mysql.connector.connect(**self.db_config)
+                    self.cursor = self.db.cursor(dictionary=True)
+                    logging.info("Kết nối lại CSDL thành công")
+
+                # Xóa bản ghi trong traffic_changes
+                query = "DELETE FROM traffic_changes WHERE way_id = %s"
+                self.cursor.execute(query, (self.selected_way_id,))
+                self.db.commit()
+                logging.info(f"Đã xóa way_id={self.selected_way_id} khỏi traffic_changes")
+
+                # Xóa highlight (cả màu xanh lá và màu đỏ nếu có)
+                self.web_view.page().runJavaScript(f"""
+                    if (window.highlightedWay) {{
+                        map.removeLayer(window.highlightedWay);
+                        window.highlightedWay = null;
+                    }}
+                    if (window.highlightedWays['{self.selected_way_id}']) {{
+                        map.removeLayer(window.highlightedWays['{self.selected_way_id}']);
+                        delete window.highlightedWays['{self.selected_way_id}'];
+                    }}
+                """)
+                if self.selected_way_id in self.highlighted_ways:
+                    self.highlighted_ways.remove(self.selected_way_id)
+                logging.info(f"Đã xóa highlight của way_id={self.selected_way_id}")
+
+                QMessageBox.information(self, "Thông báo", "Đã xóa đoạn đường bị tắc khỏi cơ sở dữ liệu!")
+            except mysql.connector.Error as err:
+                logging.error(f"Lỗi xóa CSDL: {err}")
+                QMessageBox.critical(self, "Lỗi", f"Không thể xóa khỏi cơ sở dữ liệu: {err}")
+            except Exception as e:
+                logging.error(f"Lỗi không xác định trong delete_traffic_changes: {e}")
+                QMessageBox.critical(self, "Lỗi", f"Lỗi không xác định: {str(e)}")
+        else:
+            logging.warning("delete_traffic_changes: Chưa chọn đoạn đường để xóa")
+            QMessageBox.warning(self, "Cảnh báo", "Chưa chọn đoạn đường để xóa!")
+
+        self.deleting_traffic = False  # Kết thúc chế độ xóa
+        self.selected_way_id = None
+        self.selected_coords = None
+        self.ui.deleteButton.setText("Xóa chỉnh sửa")  # Đổi lại thành "Xóa chỉnh sửa"
+        self.ui.editTrafficButton.setEnabled(True)  # Kích hoạt lại nút "Thêm đoạn đường tắc"
+
     def closeEvent(self, event):
         self.web_view.page().runJavaScript("""
             if (window.currentMapClick) {
@@ -466,9 +587,6 @@ class AdminMainWindow(QMainWindow):
             self.db.close()
             logging.info("Đóng kết nối CSDL trong AdminMainWindow")
         event.accept()
-    
-    def delete_traffic_editing(self):
-        print("Chưa triển khai")
 
 class UserMainWindow(QMainWindow):
     def __init__(self, db, cursor):

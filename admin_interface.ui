@@ -37,7 +37,7 @@
        <item>
         <widget class="QPushButton" name="editTrafficButton">
          <property name="text">
-          <string>Chỉnh sửa giao thông</string>
+          <string>Thêm đoạn đường tắc</string>
          </property>
         </widget>
        </item>
