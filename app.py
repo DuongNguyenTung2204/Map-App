@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 import os
 import json
 import logging
-from overpass_utils import find_nearest_way, get_way_coordinates
+from overpass_utils import find_nearest_way
 from routing import find_route
 
 # Thiết lập logging
@@ -157,7 +157,6 @@ class AdminMainWindow(QMainWindow):
 
     def create_initial_map(self):
         try:
-            # Sử dụng giá trị cố định từ bounds
             min_lat = 21.0001700
             min_lon = 105.8287500
             max_lat = 21.0111400
@@ -314,41 +313,39 @@ class AdminMainWindow(QMainWindow):
 
     def find_nearest_way(self, marker_lat, marker_lon):
         try:
-            way_id = find_nearest_way(marker_lat, marker_lon)
-            if way_id:
-                coords = get_way_coordinates(way_id)
-                if coords:
-                    self.selected_coords = coords
-                    coords_json = json.dumps(coords)
-                    self.web_view.page().runJavaScript(f"""
-                        if (window.highlightedWay) {{
-                            map.removeLayer(window.highlightedWay);
-                        }}
-                        window.highlightedWay = L.polyline({coords_json}, {{
-                            color: 'red',
-                            weight: 5,
-                            opacity: 0.8
-                        }}).addTo(map);
-                        try {{
-                            console.log('Selected way_id:', '{way_id}');
-                            window.pyObj.waySelected('{way_id}');
-                        }} catch (e) {{
-                            console.error('Error calling waySelected:', e);
-                        }}
-                    """)
-                    logging.info(f"Highlighted way_id={way_id} with {len(coords)} coordinates")
-                else:
-                    logging.warning(f"Không lấy được tọa độ cho way_id={way_id}")
-                    QMessageBox.warning(self, "Cảnh báo", "Không thể lấy tọa độ của đoạn đường.")
-                    self.selected_coords = None
+            way_id, way_nodes = find_nearest_way(marker_lat, marker_lon)
+            if way_id and way_nodes:
+                self.selected_way_id = way_id
+                self.selected_coords = way_nodes
+                coords_json = json.dumps(way_nodes)
+                self.web_view.page().runJavaScript(f"""
+                    if (window.highlightedWay) {{
+                        map.removeLayer(window.highlightedWay);
+                    }}
+                    window.highlightedWay = L.polyline({coords_json}, {{
+                        color: 'red',
+                        weight: 5,
+                        opacity: 0.8
+                    }}).addTo(map);
+                    try {{
+                        console.log('Selected way_id:', '{way_id}');
+                        window.pyObj.waySelected('{way_id}');
+                    }} catch (e) {{
+                        console.error('Error calling waySelected:', e);
+                    }}
+                """)
+                logging.info(f"Highlighted way_id={way_id} with {len(way_nodes)} coordinates")
+                return way_id
             else:
-                logging.warning("Không tìm thấy đoạn đường trong khu vực")
+                logging.warning("Không tìm thấy đoạn đường trong khu vực hoặc không có tọa độ")
                 QMessageBox.warning(self, "Cảnh báo", "Không tìm thấy đoạn đường trong khu vực.")
+                self.selected_way_id = None
                 self.selected_coords = None
-            return way_id
+                return None
         except Exception as e:
             logging.error(f"Lỗi tìm đoạn đường: {e}")
             QMessageBox.critical(self, "Lỗi", f"Không thể tìm đoạn đường: {str(e)}")
+            self.selected_way_id = None
             self.selected_coords = None
             return None
 
@@ -499,8 +496,8 @@ class UserMainWindow(QMainWindow):
         self.markers = []
         self.current_marker_index = 0
         self.highlighted_ways = set()
-        self.start = None  # Biến lưu tọa độ marker đầu tiên [lat, lng]
-        self.end = None   # Biến lưu tọa độ marker thứ hai [lat, lng]
+        self.start = None
+        self.end = None
 
         self.channel = QWebChannel()
         self.bridge = Bridge(self)
@@ -515,7 +512,6 @@ class UserMainWindow(QMainWindow):
 
     def create_initial_map(self):
         try:
-            # Sử dụng giá trị cố định từ bounds
             min_lat = 21.0001700
             min_lon = 105.8287500
             max_lat = 21.0111400
@@ -691,7 +687,6 @@ class UserMainWindow(QMainWindow):
     def markerClicked(self, lat, lng):
         logging.info(f"Đánh dấu tại: {lat}, {lng}")
         
-        # Lưu tọa độ vào self.start hoặc self.end
         if self.current_marker_index == 0:
             self.start = [lat, lng]
             logging.info(f"Lưu tọa độ marker 1 (start): {self.start}")
@@ -729,24 +724,16 @@ class UserMainWindow(QMainWindow):
         """)
 
     def find_direction(self):
-        """
-        Tìm và vẽ đường đi giữa hai điểm đã đánh dấu, sử dụng hàm find_route từ routing.py.
-        Đường đi được vẽ bằng polyline màu xanh dương.
-        """
-        # Kiểm tra xem đã có đủ hai marker chưa
         if self.start is None or self.end is None:
             QMessageBox.warning(self, "Cảnh báo", "Cần đánh dấu 2 điểm trên bản đồ!")
             return
 
-        # Lấy tọa độ từ self.start và self.end
         start_lat, start_lng = self.start
         end_lat, end_lng = self.end
 
-        # Gọi hàm find_route từ routing.py
         route = find_route(start_lat, start_lng, end_lat, end_lng)
 
         if route:
-            # Chuyển danh sách tọa độ thành JSON để vẽ polyline
             route_json = json.dumps(route)
             self.web_view.page().runJavaScript(f"""
                 if (window.directionLine) {{

@@ -1,44 +1,24 @@
-import requests
 import logging
+import networkx as nx
 import json
 
 # Thiết lập logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def query_overpass_around(lat, lon, radius=50):
+def load_graph(graphml_file):
     """
-    Truy vấn Overpass API để lấy các đoạn đường (ways) trong bán kính radius quanh tọa độ (lat, lon).
+    Tải đồ thị từ file GraphML.
     """
-    overpass_url = "http://overpass-api.de/api/interpreter"
-    overpass_query = f"""
-    [out:json];
-    way(around:{radius},{lat},{lon})["highway"];
-    out body;
-    >;
-    out skel qt;
-    """
+    logging.info(f"Tải đồ thị từ file GraphML: {graphml_file}")
     try:
-        response = requests.post(overpass_url, data=overpass_query, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        ways = []
-        nodes = {element['id']: (element['lat'], element['lon']) for element in data['elements'] if element['type'] == 'node'}
-        
-        for element in data['elements']:
-            if element['type'] == 'way':
-                way_coords = []
-                for node_id in element['nodes']:
-                    if node_id in nodes:
-                        way_coords.append(nodes[node_id])
-                if way_coords:
-                    ways.append({
-                        'id': element['id'],
-                        'coords': way_coords,
-                        'tags': element.get('tags', {})
-                    })
-        return {'ways': ways}
-    except requests.RequestException as e:
-        logging.error(f"Lỗi khi truy vấn Overpass API: {e}")
+        G = nx.read_graphml(graphml_file, node_type=int)
+        for node, data in G.nodes(data=True):
+            data['lat'] = float(data['lat'])
+            data['lon'] = float(data['lon'])
+        logging.info(f"Đã tải đồ thị với {G.number_of_nodes()} node và {G.number_of_edges()} cạnh")
+        return G
+    except Exception as e:
+        logging.error(f"Lỗi tải đồ thị: {str(e)}")
         raise
 
 def distance_point_to_segment(px, py, x1, y1, x2, y2):
@@ -55,70 +35,97 @@ def distance_point_to_segment(px, py, x1, y1, x2, y2):
     projection_y = y1 + t * dy
     return ((px - projection_x) ** 2 + (py - projection_y) ** 2) ** 0.5
 
-def find_nearest_way(lat, lon):
+def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
     """
-    Tìm đoạn đường gần nhất với tọa độ (lat, lon).
+    Tìm đoạn đường gần nhất với tọa độ (lat, lon) bằng cách duyệt tất cả các cạnh trong đồ thị.
+    Trả về way_id và danh sách tọa độ của các node trên đoạn đường đó, sắp xếp theo thứ tự liên tục.
     """
     try:
-        data = query_overpass_around(lat, lon)
-        ways = data['ways']
-        min_distance = float('inf')
+        G = load_graph(graphml_file)
+        min_dist = float('inf')
         nearest_way_id = None
+        nearest_way_nodes = []
+        nearest_edge = None
         
-        for way in ways:
-            coords = way['coords']
-            for i in range(len(coords) - 1):
-                node1_lat, node1_lon = coords[i]
-                node2_lat, node2_lon = coords[i + 1]
-                distance = distance_point_to_segment(lat, lon, node1_lat, node1_lon, node2_lat, node2_lon)
-                if distance < min_distance:
-                    min_distance = distance
-                    nearest_way_id = way['id']
+        # Duyệt qua tất cả các cạnh trong đồ thị
+        for u, v, data in G.edges(data=True):
+            u_lat, u_lon = G.nodes[u]['lat'], G.nodes[u]['lon']
+            v_lat, v_lon = G.nodes[v]['lat'], G.nodes[v]['lon']
+            distance = distance_point_to_segment(lat, lon, u_lat, u_lon, v_lat, v_lon)
+            if distance < min_dist:
+                min_dist = distance
+                try:
+                    tags = json.loads(data['tags'])
+                    nearest_way_id = tags.get('id')
+                    if not nearest_way_id:
+                        continue
+                    nearest_edge = (u, v)
+                except (json.JSONDecodeError, KeyError):
+                    logging.warning(f"Cạnh ({u}, {v}) có tags không hợp lệ: {data.get('tags')}")
+                    continue
         
-        if nearest_way_id:
-            logging.debug(f"Nearest way: ID={nearest_way_id}, Distance={min_distance}")
-            return nearest_way_id
+        if nearest_way_id and nearest_edge:
+            # Tìm tất cả các cạnh có cùng way_id để lấy đầy đủ node
+            way_nodes = set()
+            subgraph_edges = []
+            for x, y, edge_data in G.edges(data=True):
+                try:
+                    edge_tags = json.loads(edge_data['tags'])
+                    if edge_tags.get('id') == nearest_way_id:
+                        way_nodes.add(x)
+                        way_nodes.add(y)
+                        subgraph_edges.append((x, y))
+                except (json.JSONDecodeError, KeyError):
+                    continue
+            
+            # Tạo đồ thị con từ các cạnh của way
+            subgraph = G.edge_subgraph(subgraph_edges).copy()
+            
+            # Sắp xếp node theo đường đi liên tục
+            if way_nodes:
+                u, v = nearest_edge
+                # Chọn node đầu gần nhất với cạnh gần nhất
+                start_node = min(way_nodes, key=lambda n: ((G.nodes[n]['lat'] - G.nodes[u]['lat'])**2 + (G.nodes[n]['lon'] - G.nodes[u]['lon'])**2)**0.5)
+                
+                # Tìm đường đi bao phủ tất cả node trong way_nodes
+                sorted_nodes = [start_node]
+                remaining_nodes = way_nodes - {start_node}
+                
+                while remaining_nodes:
+                    # Tìm node tiếp theo trong đồ thị con
+                    current_node = sorted_nodes[-1]
+                    next_node = None
+                    min_path_length = float('inf')
+                    
+                    for node in remaining_nodes:
+                        if nx.has_path(subgraph, current_node, node):
+                            path = nx.shortest_path(subgraph, current_node, node)
+                            path_length = len(path)
+                            if path_length < min_path_length:
+                                min_path_length = path_length
+                                next_node = node
+                                next_path = path
+                    
+                    if next_node:
+                        # Thêm các node trong đường đi (trừ node đầu vì đã có)
+                        sorted_nodes.extend(next_path[1:])
+                        remaining_nodes.remove(next_node)
+                    else:
+                        # Nếu không tìm thấy đường đi, thêm node gần nhất theo khoảng cách Euclidean
+                        next_node = min(remaining_nodes, key=lambda n: ((G.nodes[n]['lat'] - G.nodes[current_node]['lat'])**2 + (G.nodes[n]['lon'] - G.nodes[current_node]['lon'])**2)**0.5)
+                        sorted_nodes.append(next_node)
+                        remaining_nodes.remove(next_node)
+                
+                nearest_way_nodes = [[G.nodes[node]['lat'], G.nodes[node]['lon']] for node in sorted_nodes]
+        
+        max_distance_m = 50
+        if nearest_way_id and min_dist * 111000 < max_distance_m:
+            logging.debug(f"Nearest way: ID={nearest_way_id}, Distance={min_dist * 111000:.2f}m, Nodes={len(nearest_way_nodes)}")
+            return nearest_way_id, nearest_way_nodes
         else:
-            logging.warning("Không tìm thấy đường trong khu vực")
-            return None
+            logging.warning(f"Không tìm thấy đường trong khu vực hoặc khoảng cách {min_dist * 111000:.2f}m vượt ngưỡng {max_distance_m}m")
+            return None, []
     except Exception as e:
         logging.error(f"Lỗi khi tìm đoạn đường: {e}")
         raise
 
-def get_way_coordinates(way_id):
-    """
-    Lấy tọa độ của các node thuộc đoạn đường (way) theo way_id.
-    """
-    overpass_url = "http://overpass-api.de/api/interpreter"
-    overpass_query = f"""
-    [out:json];
-    way({way_id});
-    out body;
-    >;
-    out skel qt;
-    """
-    try:
-        response = requests.post(overpass_url, data=overpass_query, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        logging.debug(f"Overpass response for way_id={way_id}: {json.dumps(data, indent=2)}")
-        
-        nodes = {element['id']: [element['lat'], element['lon']] for element in data['elements'] if element['type'] == 'node'}
-        way = next((element for element in data['elements'] if element['type'] == 'way' and element['id'] == int(way_id)), None)
-        
-        if not way:
-            logging.warning(f"Không tìm thấy way_id={way_id}")
-            return []
-        
-        coords = []
-        for node_id in way['nodes']:
-            if node_id in nodes:
-                coords.append(nodes[node_id])
-        logging.debug(f"Lấy được {len(coords)} tọa độ cho way_id={way_id}")
-        return coords
-    except requests.RequestException as e:
-        logging.error(f"Lỗi khi lấy tọa độ way_id={way_id}: {e}")
-        return []
-    except ValueError as e:
-        logging.error(f"Lỗi xử lý way_id={way_id}: {e}")
-        return []
