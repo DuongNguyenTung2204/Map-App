@@ -8779,6 +8779,146 @@
   <data key="d0">21.009784</data>
   <data key="d1">105.8379433</data>
 </node>
+<node id="1">
+  <data key="d0">21.009285666114078</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="2">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.82881006081767</data>
+</node>
+<node id="3">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83555440773219</data>
+</node>
+<node id="4">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.83071920308475</data>
+</node>
+<node id="5">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.83211121700042</data>
+</node>
+<node id="6">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.82887514396826</data>
+</node>
+<node id="7">
+  <data key="d0">21.00791625209425</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="8">
+  <data key="d0">21.008301113045235</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="9">
+  <data key="d0">21.00820080324787</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="10">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.83389493957806</data>
+</node>
+<node id="11">
+  <data key="d0">21.009245719521246</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="12">
+  <data key="d0">21.00851068330266</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="13">
+  <data key="d0">21.008544735013338</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="14">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83762087274638</data>
+</node>
+<node id="15">
+  <data key="d0">21.004506908253248</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="16">
+  <data key="d0">21.006971490796513</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="17">
+  <data key="d0">21.005828960231838</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="18">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83225712013036</data>
+</node>
+<node id="19">
+  <data key="d0">21.008444453619557</data>
+  <data key="d1">105.8395278453827</data>
+</node>
+<node id="20">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.83744480881012</data>
+</node>
+<node id="21">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83117995564524</data>
+</node>
+<node id="22">
+  <data key="d0">21.00173611795212</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="23">
+  <data key="d0">21.000787852189195</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="24">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83141506246159</data>
+</node>
+<node id="25">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83207789347098</data>
+</node>
+<node id="26">
+  <data key="d0">21.00096381017512</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="27">
+  <data key="d0">21.003489725008848</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="28">
+  <data key="d0">21.006416270444436</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="29">
+  <data key="d0">20.999906919559084</data>
+  <data key="d1">105.83388401176842</data>
+</node>
+<node id="30">
+  <data key="d0">21.000981920824596</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="31">
+  <data key="d0">21.008427638116846</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="32">
+  <data key="d0">21.004892592132656</data>
+  <data key="d1">105.82855224609376</data>
+</node>
+<node id="33">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.83006971230529</data>
+</node>
+<node id="34">
+  <data key="d0">21.011445179194784</data>
+  <data key="d1">105.8312297270932</data>
+</node>
+<node id="35">
+  <data key="d0">21.002801477698245</data>
+  <data key="d1">105.82855224609376</data>
+</node>
 <edge source="98024382" target="8209597664">
   <data key="d2">0.0002897312010387958</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
@@ -8795,13 +8935,9 @@
   <data key="d2">0.0006560606053436727</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
 </edge>
-<edge source="98024386" target="1755146823">
-  <data key="d2">0.0006133887161917772</data>
+<edge source="98024386" target="8">
+  <data key="d2">0.00044619968662974914</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
-</edge>
-<edge source="98024389" target="6601256816">
-  <data key="d2">0.00018139278523070592</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
 </edge>
 <edge source="98024920" target="6685052836">
   <data key="d2">0.0004076938213072471</data>
@@ -9023,16 +9159,8 @@
   <data key="d2">0.0003937223912730666</data>
   <data key="d3">{"highway": "secondary", "lanes": "6", "lit": "yes", "name": "Ph\u1ed1 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "name:en": "Pham Ngoc Thach Street", "surface": "asphalt", "id": "945322274"}</data>
 </edge>
-<edge source="104790704" target="5687055668">
-  <data key="d2">0.0005892214590027473</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
-<edge source="104838744" target="104839740">
-  <data key="d2">0.001562583021147345</data>
-  <data key="d3">{"highway": "tertiary_link", "lanes": "1", "lit": "yes", "surface": "asphalt", "id": "11711910"}</data>
-</edge>
-<edge source="104839740" target="104838744">
-  <data key="d2">0.001562583021147345</data>
+<edge source="104839740" target="4">
+  <data key="d2">0.0013110075165117829</data>
   <data key="d3">{"highway": "tertiary_link", "lanes": "1", "lit": "yes", "surface": "asphalt", "id": "11711910"}</data>
 </edge>
 <edge source="104839740" target="104839741">
@@ -9063,18 +9191,6 @@
   <data key="d2">0.000474982024439951</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "name": "Ng\u00f5 103 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "service": "alley", "surface": "concrete", "id": "711021338"}</data>
 </edge>
-<edge source="283136429" target="10979735803">
-  <data key="d2">0.00019269452484552266</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="283137293" target="10130569871">
-  <data key="d2">0.00047388682824873313</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="283137293" target="11200046204">
-  <data key="d2">0.0005578634588745963</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
 <edge source="283137352" target="8329563310">
   <data key="d2">0.0013193771905637408</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
@@ -9094,26 +9210,6 @@
 <edge source="283137360" target="11849697359">
   <data key="d2">0.0011592801925138223</data>
   <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="283137361" target="11849697355">
-  <data key="d2">0.0005504335083196238</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="283137361" target="1753888594">
-  <data key="d2">0.0013717195538974095</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="283137982" target="10130399588">
-  <data key="d2">0.00041271072552230814</data>
-  <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
-</edge>
-<edge source="283137982" target="2291066236">
-  <data key="d2">0.000832477648686016</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="283137982" target="10090093643">
-  <data key="d2">0.002854307089558373</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
 </edge>
 <edge source="319490596" target="8274491029">
   <data key="d2">0.0002133552340975161</data>
@@ -9147,14 +9243,6 @@
   <data key="d2">0.00390703297403795</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4A \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996748"}</data>
 </edge>
-<edge source="322505704" target="1497964599">
-  <data key="d2">0.0020545646417904507</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="322505704" target="6668082628">
-  <data key="d2">0.00022679433871892517</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
 <edge source="322505706" target="11143446903">
   <data key="d2">0.00018779988075485143</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
@@ -9162,10 +9250,6 @@
 <edge source="322505706" target="11143123401">
   <data key="d2">0.00045971548760826076</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="322505711" target="1497970366">
-  <data key="d2">0.0016707858515301755</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "709360979"}</data>
 </edge>
 <edge source="324286196" target="8274491091">
   <data key="d2">0.00024510577286268766</data>
@@ -9190,14 +9274,6 @@
 <edge source="442572693" target="1497964601">
   <data key="d2">0.0010396964457124662</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "left|left;through|through|through", "id": "1333362366"}</data>
-</edge>
-<edge source="442599146" target="8209597672">
-  <data key="d2">0.0006271365749672818</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
-</edge>
-<edge source="443767085" target="5716457477">
-  <data key="d2">0.0006122335233871263</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
 </edge>
 <edge source="444224890" target="1905157901">
   <data key="d2">0.00010026220420683392</data>
@@ -9367,24 +9443,8 @@
   <data key="d2">0.003694259789000229</data>
   <data key="d3">{"highway": "service", "moped": "yes", "motor_vehicle": "no", "motorcycle": "yes", "service": "alley", "surface": "asphalt", "id": "136161118"}</data>
 </edge>
-<edge source="1495022976" target="10130548110">
-  <data key="d2">0.0009069115647445761</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="1495022976" target="1495022977">
-  <data key="d2">0.0011179817661668378</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="1495022977" target="1495022976">
-  <data key="d2">0.0011179817661668378</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="1495022977" target="1495022978">
-  <data key="d2">0.0009743263810148415</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="1495022978" target="1495022977">
-  <data key="d2">0.0009743263810148415</data>
+<edge source="1495022978" target="3">
+  <data key="d2">0.0002448782900298546</data>
   <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
 </edge>
 <edge source="1495022978" target="1495022979">
@@ -9491,10 +9551,6 @@
   <data key="d2">0.0017941435401104724</data>
   <data key="d3">{"highway": "secondary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 Ch\u00f9a B\u1ed9c", "name:en": "Chua Boc Street", "oneway": "yes", "surface": "asphalt", "id": "1185723930"}</data>
 </edge>
-<edge source="1497961283" target="2499827551">
-  <data key="d2">0.0007814533216339946</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
-</edge>
 <edge source="1497961284" target="98025725">
   <data key="d2">0.0006376636238012589</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
@@ -9526,14 +9582,6 @@
 <edge source="1497961292" target="6601173017">
   <data key="d2">0.0006865128714543418</data>
   <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "name:en": "Pham Ngoc Thach Street", "surface": "asphalt", "id": "1136650312"}</data>
-</edge>
-<edge source="1497964599" target="11563732393">
-  <data key="d2">0.0003785084948064995</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="1497964599" target="322505704">
-  <data key="d2">0.0020545646417904507</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="1497964601" target="8130248907">
   <data key="d2">0.0004111459741836196</data>
@@ -9734,18 +9782,6 @@
 <edge source="1497969791" target="8266983620">
   <data key="d2">0.000623928016737088</data>
   <data key="d3">{"highway": "tertiary", "lit": "yes", "name": "Ph\u1ed1 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "name:en": "Luong Dinh Cua Street", "surface": "asphalt", "id": "838425493"}</data>
-</edge>
-<edge source="1497969792" target="8209597661">
-  <data key="d2">0.0008710839503946728</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "136556857"}</data>
-</edge>
-<edge source="1497969794" target="1497969797">
-  <data key="d2">0.0005629065169292341</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
-<edge source="1497969797" target="8130248912">
-  <data key="d2">0.0006863998661541586</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
 </edge>
 <edge source="1497969799" target="1497969802">
   <data key="d2">0.0006288504023895375</data>
@@ -9971,8 +10007,8 @@
   <data key="d2">0.0021309640374091595</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "709360979"}</data>
 </edge>
-<edge source="1497970366" target="322505711">
-  <data key="d2">0.0016707858515301755</data>
+<edge source="1497970366" target="20">
+  <data key="d2">0.0008004051094147148</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "709360979"}</data>
 </edge>
 <edge source="1497970367" target="1497970365">
@@ -9986,18 +10022,6 @@
 <edge source="1497970370" target="6685052835">
   <data key="d2">0.0005067059113701824</data>
   <data key="d3">{"highway": "secondary", "lanes": "2", "lit": "yes", "oneway": "yes", "surface": "asphalt", "id": "709665785"}</data>
-</edge>
-<edge source="1753888594" target="283137361">
-  <data key="d2">0.0013717195538974095</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="1755146806" target="98024389">
-  <data key="d2">0.00010975370490250509</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
-<edge source="1755146823" target="8209597665">
-  <data key="d2">0.0007122042741786687</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
 </edge>
 <edge source="1755146882" target="6684804426">
   <data key="d2">0.0015315863699555258</data>
@@ -10039,17 +10063,13 @@
   <data key="d2">0.0020748191123429</data>
   <data key="d3">{"highway": "residential", "id": "25953590"}</data>
 </edge>
-<edge source="1758642519" target="10130399697">
-  <data key="d2">0.0046711229985481545</data>
+<edge source="1758642519" target="33">
+  <data key="d2">0.0029191661715402793</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1236853246"}</data>
 </edge>
 <edge source="1758642519" target="8277275641">
   <data key="d2">0.003210765596058865</data>
   <data key="d3">{"highway": "service", "motorcar": "no", "motorcycle": "yes", "service": "alley", "id": "1276334496"}</data>
-</edge>
-<edge source="1758644520" target="5683792699">
-  <data key="d2">0.0011757223146218756</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
 </edge>
 <edge source="1884765797" target="11508021927">
   <data key="d2">0.0017402033641208937</data>
@@ -10175,10 +10195,6 @@
   <data key="d2">0.002752743939053826</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "surface": "asphalt", "id": "1330515509"}</data>
 </edge>
-<edge source="1904396195" target="10130399697">
-  <data key="d2">0.00023426876889955897</data>
-  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1236853246"}</data>
-</edge>
 <edge source="1904398535" target="1904398547">
   <data key="d2">0.0037203518720008207</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4C \u0110\u1eb7ng V\u0103n Ng\u1eef", "id": "179996743"}</data>
@@ -10190,14 +10206,6 @@
 <edge source="1904398535" target="11263823826">
   <data key="d2">0.0009149608052446339</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4A \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996748"}</data>
-</edge>
-<edge source="1904398538" target="1904398560">
-  <data key="d2">0.002926556745414804</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
-</edge>
-<edge source="1904398538" target="8059095252">
-  <data key="d2">0.005158330265164717</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
 </edge>
 <edge source="1904398541" target="8059095252">
   <data key="d2">0.0006851791551361472</data>
@@ -10258,14 +10266,6 @@
 <edge source="1904398555" target="1904398553">
   <data key="d2">0.0011269387014253343</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4C \u0110\u1eb7ng V\u0103n Ng\u1eef", "id": "179996743"}</data>
-</edge>
-<edge source="1904398560" target="8277275675">
-  <data key="d2">0.0027593301440038617</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
-</edge>
-<edge source="1904398560" target="1904398538">
-  <data key="d2">0.002926556745414804</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
 </edge>
 <edge source="1904398562" target="1904398545">
   <data key="d2">0.0008817458784979788</data>
@@ -10899,14 +10899,6 @@
   <data key="d2">0.0001831731108249789</data>
   <data key="d3">{"highway": "residential", "lit": "yes", "name": "Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "name:en": "Nguyen Ngoc Doan Street", "surface": "asphalt", "id": "711077705"}</data>
 </edge>
-<edge source="2291055764" target="11951245637">
-  <data key="d2">0.0005065073919434903</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055764" target="2291055770">
-  <data key="d2">0.000611869690014339</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
 <edge source="2291055765" target="10845715981">
   <data key="d2">0.00022065034187639877</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
@@ -10919,22 +10911,6 @@
   <data key="d2">0.000820769910106187</data>
   <data key="d3">{"highway": "residential", "lit": "yes", "name": "Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "name:en": "Nguyen Ngoc Doan Street", "surface": "asphalt", "id": "570570857"}</data>
 </edge>
-<edge source="2291055770" target="2291055764">
-  <data key="d2">0.000611869690014339</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055770" target="2291055779">
-  <data key="d2">0.00038830798080892096</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055771" target="5710482871">
-  <data key="d2">0.003784450099149709</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055771" target="11951245637">
-  <data key="d2">0.0004181473641512457</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
 <edge source="2291055772" target="7712308973">
   <data key="d2">0.0036614546631986754</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
@@ -10943,29 +10919,13 @@
   <data key="d2">0.002672242918398608</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
 </edge>
-<edge source="2291055779" target="2291055770">
-  <data key="d2">0.00038830798080892096</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055779" target="8870119281">
-  <data key="d2">0.00022589576645056718</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="2291055780" target="8870119281">
-  <data key="d2">0.0019088839443744542</data>
+<edge source="2291055780" target="12">
+  <data key="d2">0.0018015986254958653</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
 </edge>
 <edge source="2291055780" target="7712309024">
   <data key="d2">0.004723522012783115</data>
   <data key="d3">{"highway": "service", "id": "826025423"}</data>
-</edge>
-<edge source="2291066236" target="11200046204">
-  <data key="d2">0.0013529587442994804</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="2291066236" target="283137982">
-  <data key="d2">0.000832477648686016</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
 </edge>
 <edge source="2294884802" target="2294884804">
   <data key="d2">0.0005748258545307729</data>
@@ -10973,10 +10933,6 @@
 </edge>
 <edge source="2294884802" target="5721877139">
   <data key="d2">0.002697588079335926</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 34 Ph\u01b0\u01a1ng Mai", "service": "alley", "surface": "asphalt", "id": "675260241"}</data>
-</edge>
-<edge source="2294884803" target="5721877139">
-  <data key="d2">0.0020425208845998846</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 34 Ph\u01b0\u01a1ng Mai", "service": "alley", "surface": "asphalt", "id": "675260241"}</data>
 </edge>
 <edge source="2294884804" target="5716457438">
@@ -11123,22 +11079,6 @@
   <data key="d2">0.0013766486203510254</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 38 Ph\u01b0\u01a1ng Mai", "surface": "asphalt", "id": "136557777"}</data>
 </edge>
-<edge source="2499827551" target="10131967266">
-  <data key="d2">0.0011594469131239972</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
-</edge>
-<edge source="2499827551" target="1497961283">
-  <data key="d2">0.0007814533216339946</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
-</edge>
-<edge source="4048123320" target="4048123321">
-  <data key="d2">0.0007076548454928788</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
-</edge>
-<edge source="4048123321" target="8130248914">
-  <data key="d2">0.0005943593196768792</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
-</edge>
 <edge source="4048123323" target="4048123324">
   <data key="d2">0.0008234098067287323</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
@@ -11159,10 +11099,6 @@
   <data key="d2">0.0007378427047323959</data>
   <data key="d3">{"highway": "tertiary", "lane_markings": "no", "lit": "yes", "maxspeed:type": "VN:urban", "name": "Ph\u1ed1 Ph\u01b0\u01a1ng Mai", "smoothness": "excellent", "surface": "asphalt", "id": "838425492"}</data>
 </edge>
-<edge source="4599745014" target="10612035880">
-  <data key="d2">0.00037745728472106057</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
 <edge source="4599745018" target="98027697">
   <data key="d2">0.0006658274408830611</data>
   <data key="d3">{"highway": "secondary", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "464925870"}</data>
@@ -11175,17 +11111,9 @@
   <data key="d2">0.0002184296399967604</data>
   <data key="d3">{"highway": "secondary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "1158120939"}</data>
 </edge>
-<edge source="4600895552" target="10612035887">
-  <data key="d2">0.0017526184641455593</data>
-  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
-</edge>
-<edge source="4600899554" target="8823730974">
-  <data key="d2">0.000464933576865932</data>
+<edge source="4600899554" target="30">
+  <data key="d2">0.00036569557440042753</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
-</edge>
-<edge source="4608169674" target="10130548110">
-  <data key="d2">0.0003906969235711608</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
 </edge>
 <edge source="4707733229" target="10130376640">
   <data key="d2">0.00034121135225521443</data>
@@ -11366,26 +11294,6 @@
 <edge source="4707733253" target="4707733252">
   <data key="d2">0.0004563279363858066</data>
   <data key="d3">{"highway": "tertiary", "lanes": "1", "maxspeed": "40", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "1276658084"}</data>
-</edge>
-<edge source="5285531239" target="10130548118">
-  <data key="d2">0.0002982802922952632</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5285531240" target="5285531241">
-  <data key="d2">0.0007456652775334542</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5285531240" target="5687055629">
-  <data key="d2">0.0014210647700494692</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5285531241" target="12318525971">
-  <data key="d2">0.00024349852006107724</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5285531241" target="5285531240">
-  <data key="d2">0.0007456652775334542</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
 </edge>
 <edge source="5285531242" target="5285531249">
   <data key="d2">0.002026491387592859</data>
@@ -11731,14 +11639,6 @@
   <data key="d2">0.002394996025619882</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "596721698"}</data>
 </edge>
-<edge source="5683792670" target="5683792695">
-  <data key="d2">0.00023377184678981724</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792670" target="5683792694">
-  <data key="d2">0.0007244943470602076</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="5683792674" target="5683792676">
   <data key="d2">0.0004738065873529175</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00f4ng T\u00e1c", "name:en": "Dong Tac Street", "oneway": "yes", "surface": "asphalt", "id": "596721705"}</data>
@@ -11895,62 +11795,6 @@
   <data key="d2">0.0008812236899890498</data>
   <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
 </edge>
-<edge source="5683792693" target="5683792694">
-  <data key="d2">0.0017650588477000954</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792693" target="8277275817">
-  <data key="d2">0.0003638728670473157</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792694" target="5683792670">
-  <data key="d2">0.0007244943470602076</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792694" target="5683792693">
-  <data key="d2">0.0017650588477000954</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792695" target="5683792696">
-  <data key="d2">0.0005515026757264372</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792695" target="5683792670">
-  <data key="d2">0.00023377184678981724</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792696" target="12184246222">
-  <data key="d2">0.000490470030308227</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792696" target="5683792695">
-  <data key="d2">0.0005515026757264372</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792697" target="5683792698">
-  <data key="d2">0.0010534634938457453</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792697" target="12184246222">
-  <data key="d2">4.3468636298850785e-05</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792698" target="8277275843">
-  <data key="d2">0.0006539359119889991</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792698" target="5683792697">
-  <data key="d2">0.0010534634938457453</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792699" target="1758644520">
-  <data key="d2">0.0011757223146218756</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="5683792699" target="9567295536">
-  <data key="d2">0.0008508554474588537</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="5683835442" target="10130399532">
   <data key="d2">0.00027626214057437147</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "596730427"}</data>
@@ -12027,10 +11871,6 @@
   <data key="d2">0.0022078886483903886</data>
   <data key="d3">{"access": "private", "highway": "service", "id": "597116993"}</data>
 </edge>
-<edge source="5686426671" target="9579874405">
-  <data key="d2">0.001107359781573167</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
-</edge>
 <edge source="5686426672" target="11405052466">
   <data key="d2">0.0003015124795812271</data>
   <data key="d3">{"highway": "service", "oneway": "yes", "id": "597116997"}</data>
@@ -12103,10 +11943,6 @@
   <data key="d2">0.0006271356784237063</data>
   <data key="d3">{"highway": "service", "motor_vehicle": "no", "motorcycle": "yes", "name": "Ng\u00f5 36 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "service": "alley", "id": "597119937"}</data>
 </edge>
-<edge source="5686449764" target="4599745014">
-  <data key="d2">0.0012119458351493298</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
 <edge source="5686449768" target="5686449803">
   <data key="d2">0.0007747699060865058</data>
   <data key="d3">{"highway": "residential", "maxspeed": "40", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "1290408812"}</data>
@@ -12134,18 +11970,6 @@
 <edge source="5686449772" target="9580341891">
   <data key="d2">0.000880862025289651</data>
   <data key="d3">{"highway": "tertiary", "name": "Ph\u1ed1 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "name:en": "Luong Dinh Cua Street", "sidewalk": "both", "surface": "asphalt", "id": "617351094"}</data>
-</edge>
-<edge source="5686449774" target="10131967123">
-  <data key="d2">0.0006377736899964968</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="5686449777" target="10613850587">
-  <data key="d2">0.0021127643526547544</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="5686449780" target="5687055679">
-  <data key="d2">0.001362254916420217</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
 </edge>
 <edge source="5686449781" target="11425060879">
   <data key="d2">0.002098685136406613</data>
@@ -12191,8 +12015,8 @@
   <data key="d2">0.0010965326759759216</data>
   <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
 </edge>
-<edge source="5686449795" target="12318525971">
-  <data key="d2">0.0028619710133078583</data>
+<edge source="5686449795" target="14">
+  <data key="d2">0.001562890097269892</data>
   <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
 </edge>
 <edge source="5686449795" target="5686449796">
@@ -12371,30 +12195,6 @@
   <data key="d2">0.0004014150274500224</data>
   <data key="d3">{"highway": "service", "id": "597126919"}</data>
 </edge>
-<edge source="5686987679" target="10612035887">
-  <data key="d2">0.0006902512173610158</data>
-  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
-</edge>
-<edge source="5686987679" target="10130533953">
-  <data key="d2">0.001989123640470381</data>
-  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
-</edge>
-<edge source="5687055629" target="5285531240">
-  <data key="d2">0.0014210647700494692</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5687055629" target="10130548118">
-  <data key="d2">0.0014787241320760945</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="5687055668" target="10131967122">
-  <data key="d2">0.0006408790164818777</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
-<edge source="5687055679" target="104790704">
-  <data key="d2">0.0020561515051742843</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
 <edge source="5709906182" target="12669487965">
   <data key="d2">0.0011766044468488823</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "maxheight": "4.5", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "136557833"}</data>
@@ -12491,8 +12291,8 @@
   <data key="d2">0.002672242918398608</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
 </edge>
-<edge source="5710482871" target="2291055771">
-  <data key="d2">0.003784450099149709</data>
+<edge source="5710482871" target="11">
+  <data key="d2">0.0010977668817836737</data>
   <data key="d3">{"highway": "service", "id": "219977471"}</data>
 </edge>
 <edge source="5710482871" target="7712309024">
@@ -12719,10 +12519,6 @@
   <data key="d2">0.00017143383515241573</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
 </edge>
-<edge source="5716408797" target="12184246241">
-  <data key="d2">0.0004848559086856742</data>
-  <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
-</edge>
 <edge source="5716409701" target="5716408766">
   <data key="d2">0.0025576658960135895</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448189"}</data>
@@ -12795,22 +12591,6 @@
   <data key="d2">0.003979719866077293</data>
   <data key="d3">{"highway": "service", "service": "alley", "surface": "asphalt", "id": "601455481"}</data>
 </edge>
-<edge source="5716457465" target="8130257728">
-  <data key="d2">0.0003402675307868485</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="5716457465" target="1497969794">
-  <data key="d2">0.0005438054729354625</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
-<edge source="5716457466" target="6668082628">
-  <data key="d2">0.00021401234053481505</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="5716457466" target="6668082627">
-  <data key="d2">0.000154856539584143</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
 <edge source="5716457468" target="10131967268">
   <data key="d2">0.0019500400163852691</data>
   <data key="d3">{"highway": "residential", "surface": "asphalt", "id": "601455487"}</data>
@@ -12882,10 +12662,6 @@
 <edge source="5716457476" target="10131967268">
   <data key="d2">0.00024010439116492526</data>
   <data key="d3">{"highway": "residential", "surface": "asphalt", "id": "601455487"}</data>
-</edge>
-<edge source="5716457477" target="12669487971">
-  <data key="d2">0.00011987658506306644</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
 </edge>
 <edge source="5716462534" target="5716462535">
   <data key="d2">0.0002737122776882971</data>
@@ -12979,12 +12755,12 @@
   <data key="d2">0.0010720029915530893</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
 </edge>
-<edge source="5718922736" target="10131967266">
-  <data key="d2">0.0007924688140494616</data>
+<edge source="5718922736" target="7">
+  <data key="d2">0.0002906840615703511</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
 </edge>
-<edge source="5718922737" target="1497969792">
-  <data key="d2">0.0007848892437888749</data>
+<edge source="5718922737" target="9">
+  <data key="d2">0.0007066477745601242</data>
   <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "136556857"}</data>
 </edge>
 <edge source="5721795692" target="8277275890">
@@ -13051,8 +12827,8 @@
   <data key="d2">0.002697588079335926</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 34 Ph\u01b0\u01a1ng Mai", "service": "alley", "surface": "asphalt", "id": "675260241"}</data>
 </edge>
-<edge source="5721877139" target="2294884803">
-  <data key="d2">0.0020425208845998846</data>
+<edge source="5721877139" target="17">
+  <data key="d2">0.00083955726242588</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 34 Ph\u01b0\u01a1ng Mai", "service": "alley", "surface": "asphalt", "id": "675260241"}</data>
 </edge>
 <edge source="5721877141" target="9439560364">
@@ -13383,14 +13159,6 @@
   <data key="d2">0.001145610238872072</data>
   <data key="d3">{"highway": "residential", "lit": "yes", "oneway": "no", "surface": "asphalt", "id": "25953552"}</data>
 </edge>
-<edge source="6601256816" target="443767085">
-  <data key="d2">2.472535591084373e-05</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
-<edge source="6617075639" target="10612035877">
-  <data key="d2">0.00016205172838363194</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
 <edge source="6646865963" target="5686426691">
   <data key="d2">0.0012400111124351405</data>
   <data key="d3">{"highway": "residential", "lane_markings": "no", "lit": "yes", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 H\u1ed3 H\u1ed1 M\u1ebb", "sidewalk": "both", "sidewalk:both:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "597117003"}</data>
@@ -13474,26 +13242,6 @@
 <edge source="6668082625" target="8040029470">
   <data key="d2">0.00042611824065810815</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="6668082627" target="5716457466">
-  <data key="d2">0.000154856539584143</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="6668082627" target="8130257728">
-  <data key="d2">0.00018256316016088188</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="6668082628" target="322505704">
-  <data key="d2">0.00022679433871892517</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="6668082628" target="5716457466">
-  <data key="d2">0.00021401234053481505</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="6677217865" target="7985603151">
-  <data key="d2">0.0008484131410734006</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
 </edge>
 <edge source="6677338239" target="11016142970">
   <data key="d2">0.0003312848939306649</data>
@@ -13871,10 +13619,6 @@
   <data key="d2">0.0031825042920022653</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 89 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "service": "alley", "surface": "asphalt", "id": "711325348"}</data>
 </edge>
-<edge source="6688357744" target="283131195">
-  <data key="d2">0.0029867314317197015</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
 <edge source="6688471376" target="5686449783">
   <data key="d2">0.00024451032402112913</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
@@ -13919,24 +13663,12 @@
   <data key="d2">0.0012848520908822062</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 75 Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "concrete", "id": "711094354"}</data>
 </edge>
-<edge source="7119373780" target="10131967155">
-  <data key="d2">0.0012575013944541404</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
-</edge>
 <edge source="7119384385" target="8093872388">
   <data key="d2">0.0005842959603139121</data>
   <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
 </edge>
-<edge source="7119384387" target="7771967128">
-  <data key="d2">0.001769426454168117</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
-</edge>
-<edge source="7119384388" target="12726065967">
-  <data key="d2">0.0027045393092613675</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
-</edge>
-<edge source="7119384389" target="12726065969">
-  <data key="d2">0.0012146829775029077</data>
+<edge source="7119384387" target="26">
+  <data key="d2">0.0016169838272123882</data>
   <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
 </edge>
 <edge source="7401211859" target="7887624767">
@@ -13951,72 +13683,12 @@
   <data key="d2">0.0011485835492745047</data>
   <data key="d3">{"highway": "secondary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "857047108"}</data>
 </edge>
-<edge source="7401211860" target="7401211861">
-  <data key="d2">0.0028644601897884455</data>
+<edge source="7401211860" target="22">
+  <data key="d2">0.0025235377013959758</data>
   <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
 </edge>
 <edge source="7401211860" target="7887624767">
   <data key="d2">0.0014674157783492298</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211861" target="7401211863">
-  <data key="d2">0.005194972911776246</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211861" target="7401211860">
-  <data key="d2">0.0028644601897884455</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211863" target="7401211865">
-  <data key="d2">0.0006082992248673616</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211863" target="7401211861">
-  <data key="d2">0.005194972911776246</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211865" target="7401211866">
-  <data key="d2">0.000658972248367933</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211865" target="7401211863">
-  <data key="d2">0.0006082992248673616</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211866" target="7401211867">
-  <data key="d2">0.0012349093845677637</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211866" target="7401211865">
-  <data key="d2">0.000658972248367933</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211867" target="7401211869">
-  <data key="d2">0.00041034519030127143</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211867" target="7401211866">
-  <data key="d2">0.0012349093845677637</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211869" target="7401211871">
-  <data key="d2">0.0005841450464072523</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211869" target="7401211867">
-  <data key="d2">0.00041034519030127143</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211871" target="12612823558">
-  <data key="d2">0.0011954157932381043</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211871" target="7401211869">
-  <data key="d2">0.0005841450464072523</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="7401211873" target="12612823558">
-  <data key="d2">0.0006902200271211283</data>
   <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
 </edge>
 <edge source="7401242704" target="6405942898">
@@ -14075,45 +13747,9 @@
   <data key="d2">0.0008030728252999497</data>
   <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
 </edge>
-<edge source="7401242710" target="7401242711">
-  <data key="d2">0.0006527164915049478</data>
+<edge source="7401242710" target="35">
+  <data key="d2">0.00019549851481190264</data>
   <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242711" target="7401242710">
-  <data key="d2">0.0006527164915049478</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242711" target="7401242712">
-  <data key="d2">0.0007187850664500023</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242712" target="7401242711">
-  <data key="d2">0.0007187850664500023</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242712" target="7401242713">
-  <data key="d2">0.001013258447096137</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242713" target="7401242712">
-  <data key="d2">0.001013258447096137</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242713" target="7401242714">
-  <data key="d2">0.0008890671754482017</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7401242714" target="7401242713">
-  <data key="d2">0.0008890671754482017</data>
-  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
-</edge>
-<edge source="7448914553" target="11563732398">
-  <data key="d2">0.0005981641670521527</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="7448914553" target="11563732393">
-  <data key="d2">0.0014330222491064032</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="7539556444" target="10302024032">
   <data key="d2">0.00039188677510101374</data>
@@ -14214,18 +13850,6 @@
 <edge source="7712309030" target="7712309029">
   <data key="d2">0.0025548497618974623</data>
   <data key="d3">{"highway": "service", "id": "826025425"}</data>
-</edge>
-<edge source="7771967122" target="10130548081">
-  <data key="d2">0.0009734260207457339</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
-</edge>
-<edge source="7771967123" target="7119384385">
-  <data key="d2">0.0017734887480508527</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
-</edge>
-<edge source="7771967128" target="10130548080">
-  <data key="d2">0.0013482252900101903</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
 </edge>
 <edge source="7838805539" target="5716457429">
   <data key="d2">0.0023992005217170634</data>
@@ -14423,14 +14047,6 @@
   <data key="d2">0.00026674221448588445</data>
   <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "oneway": "no", "surface": "asphalt", "id": "1158120938"}</data>
 </edge>
-<edge source="7939114765" target="10979735803">
-  <data key="d2">0.00029142670306069566</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="7939114765" target="10130569871">
-  <data key="d2">0.0004316452011734164</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
 <edge source="7985603132" target="8368116823">
   <data key="d2">0.00024444611476134615</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
@@ -14450,10 +14066,6 @@
 <edge source="7985603138" target="10130533962">
   <data key="d2">5.898430930465216e-05</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
-<edge source="7985603151" target="7985603147">
-  <data key="d2">0.00010815512121312185</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
 </edge>
 <edge source="8000825499" target="8000825510">
   <data key="d2">0.001492716340894749</data>
@@ -14519,8 +14131,8 @@
   <data key="d2">0.0013333820238310232</data>
   <data key="d3">{"highway": "service", "id": "863476651"}</data>
 </edge>
-<edge source="8059095252" target="1904398538">
-  <data key="d2">0.005158330265164717</data>
+<edge source="8059095252" target="10">
+  <data key="d2">0.004703087776748365</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
 </edge>
 <edge source="8059095252" target="1904398541">
@@ -14575,10 +14187,6 @@
   <data key="d2">0.0001141268536943819</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
-<edge source="8130248912" target="1497969799">
-  <data key="d2">0.0005881661476711686</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
 <edge source="8130248913" target="12669487970">
   <data key="d2">0.0007389565597795242</data>
   <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
@@ -14586,14 +14194,6 @@
 <edge source="8130248914" target="4048123323">
   <data key="d2">0.0006477514262352161</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
-</edge>
-<edge source="8130257728" target="6668082627">
-  <data key="d2">0.00018256316016088188</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="8130257728" target="5716457465">
-  <data key="d2">0.0003402675307868485</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="8130257733" target="6684804426">
   <data key="d2">0.0003254489433713583</data>
@@ -14739,25 +14339,9 @@
   <data key="d2">0.0007767549337629401</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 19 \u0110\u00f4ng T\u00e1c", "service": "alley", "id": "1320695746"}</data>
 </edge>
-<edge source="8209597661" target="1497961283">
-  <data key="d2">0.0007297149675573199</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "136556857"}</data>
-</edge>
 <edge source="8209597664" target="12669487968">
   <data key="d2">0.000540028608097889</data>
   <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
-</edge>
-<edge source="8209597665" target="8209597666">
-  <data key="d2">0.0006124210603668992</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
-</edge>
-<edge source="8209597666" target="98024387">
-  <data key="d2">0.000652560248860711</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "38095070"}</data>
-</edge>
-<edge source="8209597672" target="4048123320">
-  <data key="d2">0.0005737497162588271</data>
-  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
 </edge>
 <edge source="8209597678" target="6668082605">
   <data key="d2">0.0005798172937001412</data>
@@ -15383,10 +14967,6 @@
   <data key="d2">0.0005025122196236916</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "name": "Ng\u00f5 27 X\u00e3 \u0110\u00e0n", "service": "alley", "id": "890573898"}</data>
 </edge>
-<edge source="8277275675" target="1904398560">
-  <data key="d2">0.0027593301440038617</data>
-  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
-</edge>
 <edge source="8277275690" target="8277275661">
   <data key="d2">0.0003988867725171627</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00e1ch 28 Ng\u00f5 46 Ph\u1ed1 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "id": "600582035"}</data>
@@ -15819,14 +15399,6 @@
   <data key="d2">0.001718517141932948</data>
   <data key="d3">{"highway": "service", "motorcycle": "yes", "id": "890573942"}</data>
 </edge>
-<edge source="8277275776" target="9567295536">
-  <data key="d2">0.0024410214421000864</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="8277275776" target="11149866768">
-  <data key="d2">0.0006358358841687592</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="8277275780" target="8277275781">
   <data key="d2">0.002146927563356176</data>
   <data key="d3">{"highway": "service", "motorcycle": "yes", "id": "890573945"}</data>
@@ -15863,14 +15435,6 @@
   <data key="d2">0.00028166600459155356</data>
   <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
 </edge>
-<edge source="8277275817" target="5683792693">
-  <data key="d2">0.0003638728670473157</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="8277275817" target="10997015889">
-  <data key="d2">0.001020892639297333</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="8277275818" target="8277275775">
   <data key="d2">0.001718517141932948</data>
   <data key="d3">{"highway": "service", "motorcycle": "yes", "id": "890573942"}</data>
@@ -15895,25 +15459,13 @@
   <data key="d2">0.002862650971236906</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "890573962"}</data>
 </edge>
-<edge source="8277275821" target="8277275822">
-  <data key="d2">0.0029902645300277637</data>
+<edge source="8277275821" target="27">
+  <data key="d2">0.0004102701107584387</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "890573962"}</data>
 </edge>
 <edge source="8277275821" target="8277275820">
   <data key="d2">0.002862650971236906</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "890573962"}</data>
-</edge>
-<edge source="8277275822" target="8277275821">
-  <data key="d2">0.0029902645300277637</data>
-  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "890573962"}</data>
-</edge>
-<edge source="8277275843" target="11927895139">
-  <data key="d2">0.0010422350236726418</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="8277275843" target="5683792698">
-  <data key="d2">0.0006539359119889991</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
 </edge>
 <edge source="8277275885" target="12185673538">
   <data key="d2">0.0015047052146730793</data>
@@ -15955,10 +15507,6 @@
   <data key="d2">0.003299353874406676</data>
   <data key="d3">{"highway": "service", "motorcar": "yes", "name": "Ng\u00f5 59 Ch\u00f9a B\u1ed9c", "id": "708581284"}</data>
 </edge>
-<edge source="8277275895" target="11508021926">
-  <data key="d2">0.004131585168840651</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "motorcycle": "yes", "id": "890573985"}</data>
-</edge>
 <edge source="8307949970" target="5683792678">
   <data key="d2">0.0030847996385790603</data>
   <data key="d3">{"highway": "service", "service": "alley", "surface": "asphalt", "id": "596721707"}</data>
@@ -15991,8 +15539,8 @@
   <data key="d2">0.00039081415169482236</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 12 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "895560337"}</data>
 </edge>
-<edge source="8324650946" target="6617075639">
-  <data key="d2">0.0013734313743891567</data>
+<edge source="8324650946" target="21">
+  <data key="d2">0.000869170168068382</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
 </edge>
 <edge source="8329563310" target="283137352">
@@ -16271,10 +15819,6 @@
   <data key="d2">0.00024299325815999425</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 65 Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "service": "alley", "id": "896754253"}</data>
 </edge>
-<edge source="8823730974" target="5686426671">
-  <data key="d2">0.0003415819279686929</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
-</edge>
 <edge source="8823747117" target="8823747118">
   <data key="d2">0.00028462805296642913</data>
   <data key="d3">{"highway": "residential", "lit": "yes", "name": "Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "name:en": "Nguyen Ngoc Doan Street", "surface": "asphalt", "id": "570570857"}</data>
@@ -16343,14 +15887,6 @@
   <data key="d2">0.0022582439859980107</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 28C L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "surface": "asphalt", "id": "683871827"}</data>
 </edge>
-<edge source="8870119281" target="2291055779">
-  <data key="d2">0.00022589576645056718</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="8870119281" target="2291055780">
-  <data key="d2">0.0019088839443744542</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
 <edge source="8870119288" target="8274491039">
   <data key="d2">0.00039210279380247164</data>
   <data key="d3">{"access": "private", "highway": "service", "surface": "concrete", "id": "601448195"}</data>
@@ -16374,14 +15910,6 @@
 <edge source="8870121634" target="8277275664">
   <data key="d2">0.0004644413689230137</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "name": "Ng\u00f5 27 X\u00e3 \u0110\u00e0n", "service": "alley", "id": "890573898"}</data>
-</edge>
-<edge source="9240269813" target="11143123401">
-  <data key="d2">0.003677940018850012</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="9240269813" target="11563732398">
-  <data key="d2">0.002428144511199561</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="9339541983" target="9339541986">
   <data key="d2">0.004263759304545488</data>
@@ -16811,14 +16339,6 @@
   <data key="d2">0.0013775406850004917</data>
   <data key="d3">{"highway": "service", "service": "alley", "id": "1023619590"}</data>
 </edge>
-<edge source="9567295536" target="5683792699">
-  <data key="d2">0.0008508554474588537</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="9567295536" target="8277275776">
-  <data key="d2">0.0024410214421000864</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="9567498918" target="8324610723">
   <data key="d2">0.00039081415169482236</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 12 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "895560337"}</data>
@@ -16826,10 +16346,6 @@
 <edge source="9567498918" target="8324610722">
   <data key="d2">0.0028495567589504342</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 12 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "895560337"}</data>
-</edge>
-<edge source="9579874405" target="6677217865">
-  <data key="d2">0.0006563540194909341</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "surface": "asphalt", "id": "1158120932"}</data>
 </edge>
 <edge source="9579889052" target="5683792685">
   <data key="d2">0.00016300836600836047</data>
@@ -16863,24 +16379,8 @@
   <data key="d2">0.0019931641224129894</data>
   <data key="d3">{"highway": "service", "id": "1040444981"}</data>
 </edge>
-<edge source="9580225855" target="11849697359">
-  <data key="d2">0.0007122821196386301</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="9580225855" target="11486224310">
-  <data key="d2">0.0008041487177670821</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="9580258005" target="10130548108">
-  <data key="d2">0.004225297497818339</data>
-  <data key="d3">{"highway": "service", "id": "1040482748"}</data>
-</edge>
-<edge source="9580258006" target="5686449777">
-  <data key="d2">0.000580175169518486</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="9580258006" target="10130548108">
-  <data key="d2">0.00031875114084864</data>
+<edge source="9580258005" target="29">
+  <data key="d2">0.002326887482735341</data>
   <data key="d3">{"highway": "service", "id": "1040482748"}</data>
 </edge>
 <edge source="9580279695" target="8167688765">
@@ -17007,8 +16507,8 @@
   <data key="d2">0.0012534899503663518</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
 </edge>
-<edge source="9582206603" target="10130399588">
-  <data key="d2">0.004903795289739907</data>
+<edge source="9582206603" target="5">
+  <data key="d2">0.0028046691703818797</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
 </edge>
 <edge source="9582206603" target="9582206599">
@@ -17251,8 +16751,8 @@
   <data key="d2">0.001334138804292206</data>
   <data key="d3">{"highway": "residential", "lit": "yes", "name": "Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "name:en": "Nguyen Ngoc Doan Street", "surface": "asphalt", "id": "711077705"}</data>
 </edge>
-<edge source="10090093643" target="283137982">
-  <data key="d2">0.002854307089558373</data>
+<edge source="10090093643" target="34">
+  <data key="d2">0.0005640486554238563</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
 </edge>
 <edge source="10090093643" target="104839741">
@@ -17555,14 +17055,6 @@
   <data key="d2">0.0013584447271140082</data>
   <data key="d3">{"highway": "tertiary", "lane_markings": "no", "lit": "yes", "maxspeed:type": "VN:urban", "name": "Ph\u1ed1 Ph\u01b0\u01a1ng Mai", "smoothness": "excellent", "surface": "asphalt", "id": "838425492"}</data>
 </edge>
-<edge source="10130399588" target="9582206603">
-  <data key="d2">0.004903795289739907</data>
-  <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
-</edge>
-<edge source="10130399588" target="283137982">
-  <data key="d2">0.00041271072552230814</data>
-  <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
-</edge>
 <edge source="10130399619" target="319490598">
   <data key="d2">0.0003774286281740591</data>
   <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "29046492"}</data>
@@ -17727,14 +17219,6 @@
   <data key="d2">0.0012665355528393599</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 29 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "concrete", "id": "711094356"}</data>
 </edge>
-<edge source="10130399697" target="1758642519">
-  <data key="d2">0.0046711229985481545</data>
-  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1236853246"}</data>
-</edge>
-<edge source="10130399697" target="1904396195">
-  <data key="d2">0.00023426876889955897</data>
-  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1236853246"}</data>
-</edge>
 <edge source="10130533935" target="10130533937">
   <data key="d2">0.004724928865230454</data>
   <data key="d3">{"bicycle": "no", "bridge": "yes", "bus": "no", "coach": "no", "divider": "solid_line", "foot": "no", "highway": "secondary", "lanes": "2", "layer": "3", "lit": "yes", "maxheight": "3.5", "maxspeed": "30", "name": "C\u1ea7u v\u01b0\u1ee3t n\u00fat giao Ch\u00f9a B\u1ed9c - Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "surface": "asphalt", "id": "1107122299"}</data>
@@ -17823,8 +17307,8 @@
   <data key="d2">0.000539315597525354</data>
   <data key="d3">{"bicycle": "no", "bus": "no", "coach": "no", "foot": "no", "highway": "secondary", "lanes": "1", "lit": "yes", "maxheight": "3.5", "maxspeed": "30", "name": "C\u1ea7u v\u01b0\u1ee3t n\u00fat giao Ch\u00f9a B\u1ed9c - Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "oneway": "yes", "surface": "asphalt", "id": "1107122301"}</data>
 </edge>
-<edge source="10130533953" target="5686987679">
-  <data key="d2">0.001989123640470381</data>
+<edge source="10130533953" target="2">
+  <data key="d2">0.0010353978156142547</data>
   <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
 </edge>
 <edge source="10130533953" target="10130548058">
@@ -17959,14 +17443,6 @@
   <data key="d2">0.00157872737914001</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
 </edge>
-<edge source="10130548080" target="7771967127">
-  <data key="d2">0.0009774327501297442</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
-</edge>
-<edge source="10130548081" target="7771967123">
-  <data key="d2">0.0013266566141073902</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
-</edge>
 <edge source="10130548105" target="11425060841">
   <data key="d2">0.0001886403105963134</data>
   <data key="d3">{"highway": "service", "id": "1231847614"}</data>
@@ -17983,38 +17459,6 @@
   <data key="d2">0.00033808730573273366</data>
   <data key="d3">{"highway": "service", "id": "597119945"}</data>
 </edge>
-<edge source="10130548108" target="9580258006">
-  <data key="d2">0.00031875114084864</data>
-  <data key="d3">{"highway": "service", "id": "1040482748"}</data>
-</edge>
-<edge source="10130548108" target="9580258005">
-  <data key="d2">0.004225297497818339</data>
-  <data key="d3">{"highway": "service", "id": "1040482748"}</data>
-</edge>
-<edge source="10130548110" target="4608169674">
-  <data key="d2">0.0003906969235711608</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="10130548110" target="1495022976">
-  <data key="d2">0.0009069115647445761</data>
-  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
-</edge>
-<edge source="10130548118" target="5687055629">
-  <data key="d2">0.0014787241320760945</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="10130548118" target="5285531239">
-  <data key="d2">0.0002982802922952632</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="10130569871" target="7939114765">
-  <data key="d2">0.0004316452011734164</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="10130569871" target="283137293">
-  <data key="d2">0.00047388682824873313</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
 <edge source="10130569908" target="1497969550">
   <data key="d2">0.0004129745179307533</data>
   <data key="d3">{"highway": "tertiary", "lit": "yes", "name": "Ph\u1ed1 Ho\u00e0ng T\u00edch Tr\u00ed", "name:en": "Hoang Tich Tri Street", "oneway": "yes", "oneway:bicycle": "no", "oneway:moped": "no", "oneway:motorcycle": "no", "surface": "asphalt", "id": "1215943718"}</data>
@@ -18030,22 +17474,6 @@
 <edge source="10131964711" target="7842712630">
   <data key="d2">0.0004577550768840739</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "597116999"}</data>
-</edge>
-<edge source="10131967122" target="6688357744">
-  <data key="d2">0.0005054168026041575</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
-<edge source="10131967123" target="9580258006">
-  <data key="d2">0.000692235336198951</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="10131967154" target="7119384388">
-  <data key="d2">0.001247988857322942</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
-</edge>
-<edge source="10131967155" target="12726065968">
-  <data key="d2">0.0009771256350360185</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
 </edge>
 <edge source="10131967210" target="5716457472">
   <data key="d2">0.0004071285784469523</data>
@@ -18110,14 +17538,6 @@
 <edge source="10131967239" target="7595842017">
   <data key="d2">0.002754152956585099</data>
   <data key="d3">{"highway": "residential", "name": "Ng\u00f5 5 Ho\u00e0ng T\u00edch Tr\u00ed", "id": "180082707"}</data>
-</edge>
-<edge source="10131967266" target="5718922736">
-  <data key="d2">0.0007924688140494616</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
-</edge>
-<edge source="10131967266" target="2499827551">
-  <data key="d2">0.0011594469131239972</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
 </edge>
 <edge source="10131967268" target="5716457476">
   <data key="d2">0.00024010439116492526</data>
@@ -18303,32 +17723,8 @@
   <data key="d2">0.0006459360086777646</data>
   <data key="d3">{"highway": "service", "oneway": "no", "id": "1225617665"}</data>
 </edge>
-<edge source="10612035877" target="5686449780">
-  <data key="d2">0.0008519530495058785</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "turn:lanes": "through|through;right", "id": "740599803"}</data>
-</edge>
 <edge source="10612035878" target="11425060880">
   <data key="d2">0.0013999724874683283</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="10612035879" target="5686449774">
-  <data key="d2">0.0006107452324672867</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="10612035880" target="10612035879">
-  <data key="d2">0.0002764501573297013</data>
-  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
-</edge>
-<edge source="10612035887" target="4600895552">
-  <data key="d2">0.0017526184641455593</data>
-  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
-</edge>
-<edge source="10612035887" target="5686987679">
-  <data key="d2">0.0006902512173610158</data>
-  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
-</edge>
-<edge source="10613850587" target="6688471376">
-  <data key="d2">0.0012142883813888777</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
 </edge>
 <edge source="10685723750" target="6684849549">
@@ -18427,16 +17823,12 @@
   <data key="d2">0.0003844099417277357</data>
   <data key="d3">{"highway": "service", "service": "alley", "id": "1177473757"}</data>
 </edge>
-<edge source="10941195745" target="10941195751">
-  <data key="d2">0.0003772701783358783</data>
-  <data key="d3">{"highway": "service", "id": "1177745698"}</data>
-</edge>
 <edge source="10941195746" target="8767931826">
   <data key="d2">0.00024299325815999425</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 65 Ph\u1ed1 Nguy\u1ec5n Ng\u1ecdc Do\u00e3n", "service": "alley", "id": "896754253"}</data>
 </edge>
-<edge source="10941195746" target="10941195751">
-  <data key="d2">0.0026233522803897416</data>
+<edge source="10941195746" target="31">
+  <data key="d2">0.0020868337462906696</data>
   <data key="d3">{"highway": "service", "id": "1177745698"}</data>
 </edge>
 <edge source="10941195746" target="11323015279">
@@ -18461,14 +17853,6 @@
 </edge>
 <edge source="10941195749" target="10941195748">
   <data key="d2">0.0007726009167861022</data>
-  <data key="d3">{"highway": "service", "id": "1177745698"}</data>
-</edge>
-<edge source="10941195751" target="10941195745">
-  <data key="d2">0.0003772701783358783</data>
-  <data key="d3">{"highway": "service", "id": "1177745698"}</data>
-</edge>
-<edge source="10941195751" target="10941195746">
-  <data key="d2">0.0026233522803897416</data>
   <data key="d3">{"highway": "service", "id": "1177745698"}</data>
 </edge>
 <edge source="10941195752" target="11323015279">
@@ -18498,18 +17882,6 @@
 <edge source="10976066921" target="10976066920">
   <data key="d2">0.0003494344171447505</data>
   <data key="d3">{"highway": "service", "service": "alley", "id": "1175013458"}</data>
-</edge>
-<edge source="10979735803" target="283136429">
-  <data key="d2">0.00019269452484552266</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="10979735803" target="7939114765">
-  <data key="d2">0.00029142670306069566</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="10997015881" target="10997015893">
-  <data key="d2">0.002851569894746501</data>
-  <data key="d3">{"highway": "service", "id": "1184189718"}</data>
 </edge>
 <edge source="10997015882" target="10997015892">
   <data key="d2">8.930539414257886e-05</data>
@@ -18571,8 +17943,8 @@
   <data key="d2">0.000752196868437686</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 43 Ch\u00f9a B\u1ed9c", "surface": "asphalt", "id": "136258984"}</data>
 </edge>
-<edge source="10997015889" target="8277275817">
-  <data key="d2">0.001020892639297333</data>
+<edge source="10997015889" target="15">
+  <data key="d2">0.0003586801450156522</data>
   <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
 </edge>
 <edge source="10997015889" target="5683792692">
@@ -18607,8 +17979,8 @@
   <data key="d2">0.00031525618147345446</data>
   <data key="d3">{"highway": "service", "id": "1184189718"}</data>
 </edge>
-<edge source="10997015893" target="10997015881">
-  <data key="d2">0.002851569894746501</data>
+<edge source="10997015893" target="32">
+  <data key="d2">0.0021473041252809432</data>
   <data key="d3">{"highway": "service", "id": "1184189718"}</data>
 </edge>
 <edge source="10997015894" target="10997015893">
@@ -18951,8 +18323,8 @@
   <data key="d2">0.00045971548760826076</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
-<edge source="11143123401" target="9240269813">
-  <data key="d2">0.003677940018850012</data>
+<edge source="11143123401" target="1">
+  <data key="d2">0.0036544486113035462</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="11143446903" target="11149933876">
@@ -19039,14 +18411,6 @@
   <data key="d2">0.0033309960018056773</data>
   <data key="d3">{"highway": "service", "id": "1202734960"}</data>
 </edge>
-<edge source="11149866768" target="8277275776">
-  <data key="d2">0.0006358358841687592</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="11149866768" target="11927895139">
-  <data key="d2">0.0005150389283969716</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="11149933876" target="1497964603">
   <data key="d2">0.0013731401972358168</data>
   <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
@@ -19078,14 +18442,6 @@
 <edge source="11155221431" target="11347832063">
   <data key="d2">0.0010461340913784929</data>
   <data key="d3">{"highway": "service", "id": "806263709"}</data>
-</edge>
-<edge source="11200046204" target="283137293">
-  <data key="d2">0.0005578634588745963</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
-</edge>
-<edge source="11200046204" target="2291066236">
-  <data key="d2">0.0013529587442994804</data>
-  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
 </edge>
 <edge source="11237930382" target="5710482874">
   <data key="d2">0.0018010914575106063</data>
@@ -19479,16 +18835,8 @@
   <data key="d2">0.0002144766255555253</data>
   <data key="d3">{"access": "private", "highway": "service", "id": "1231847611"}</data>
 </edge>
-<edge source="11486224310" target="9580225855">
-  <data key="d2">0.0008041487177670821</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="11486224310" target="11849697355">
-  <data key="d2">0.0003640568297310857</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="11508021926" target="8277275895">
-  <data key="d2">0.004131585168840651</data>
+<edge source="11508021926" target="28">
+  <data key="d2">0.0026315565853378175</data>
   <data key="d3">{"highway": "service", "motorcar": "no", "motorcycle": "yes", "id": "890573985"}</data>
 </edge>
 <edge source="11508021927" target="6658429241">
@@ -19510,22 +18858,6 @@
 <edge source="11562451633" target="12196632251">
   <data key="d2">0.00042620811340246144</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "name": "Ng\u00f5 11 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "service": "alley", "surface": "concrete", "id": "136557780"}</data>
-</edge>
-<edge source="11563732393" target="7448914553">
-  <data key="d2">0.0014330222491064032</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="11563732393" target="1497964599">
-  <data key="d2">0.0003785084948064995</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="11563732398" target="9240269813">
-  <data key="d2">0.002428144511199561</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
-</edge>
-<edge source="11563732398" target="7448914553">
-  <data key="d2">0.0005981641670521527</data>
-  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
 </edge>
 <edge source="11603105663" target="10130376710">
   <data key="d2">0.0005542891502672358</data>
@@ -19803,20 +19135,12 @@
   <data key="d2">0.0006148862903024774</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 97 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "service": "alley", "surface": "concrete", "id": "1274605996"}</data>
 </edge>
-<edge source="11849697355" target="11486224310">
-  <data key="d2">0.0003640568297310857</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
-<edge source="11849697355" target="283137361">
-  <data key="d2">0.0005504335083196238</data>
-  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
-</edge>
 <edge source="11849697359" target="283137360">
   <data key="d2">0.0011592801925138223</data>
   <data key="d3">{"highway": "residential", "id": "25953590"}</data>
 </edge>
-<edge source="11849697359" target="9580225855">
-  <data key="d2">0.0007122821196386301</data>
+<edge source="11849697359" target="6">
+  <data key="d2">0.0004290487428255566</data>
   <data key="d3">{"highway": "residential", "id": "25953590"}</data>
 </edge>
 <edge source="11849697359" target="11849697360">
@@ -20138,22 +19462,6 @@
 <edge source="11919533749" target="6687930408">
   <data key="d2">0.002580498923610141</data>
   <data key="d3">{"highway": "service", "name": "Ng\u00f5 32 L\u01b0\u01a1ng \u0110\u1ecbnh C\u1ee7a", "service": "alley", "surface": "asphalt", "id": "711325347"}</data>
-</edge>
-<edge source="11927895139" target="11149866768">
-  <data key="d2">0.0005150389283969716</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="11927895139" target="8277275843">
-  <data key="d2">0.0010422350236726418</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="11951245637" target="2291055771">
-  <data key="d2">0.0004181473641512457</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
-</edge>
-<edge source="11951245637" target="2291055764">
-  <data key="d2">0.0005065073919434903</data>
-  <data key="d3">{"highway": "service", "id": "219977471"}</data>
 </edge>
 <edge source="11964086594" target="12196632294">
   <data key="d2">0.00047934178055765615</data>
@@ -20531,14 +19839,6 @@
   <data key="d2">0.00031823201039808105</data>
   <data key="d3">{"highway": "service", "id": "1315710191"}</data>
 </edge>
-<edge source="12184246222" target="5683792697">
-  <data key="d2">4.3468636298850785e-05</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
-<edge source="12184246222" target="5683792696">
-  <data key="d2">0.000490470030308227</data>
-  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
-</edge>
 <edge source="12184246223" target="5716408796">
   <data key="d2">0.00017143383515241573</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
@@ -20547,8 +19847,8 @@
   <data key="d2">0.00023507822202917415</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
 </edge>
-<edge source="12184246241" target="5716408797">
-  <data key="d2">0.0004848559086856742</data>
+<edge source="12184246241" target="16">
+  <data key="d2">0.00032433238893592533</data>
   <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
 </edge>
 <edge source="12184246241" target="5716408796">
@@ -21859,14 +21159,6 @@
   <data key="d2">0.00026482435040336126</data>
   <data key="d3">{"highway": "secondary", "lanes": "3", "lit": "yes", "name": "Ph\u1ed1 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch", "name:en": "Pham Ngoc Thach Street", "oneway": "yes", "surface": "asphalt", "id": "1185723923"}</data>
 </edge>
-<edge source="12318525971" target="5686449795">
-  <data key="d2">0.0028619710133078583</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
-<edge source="12318525971" target="5285531241">
-  <data key="d2">0.00024349852006107724</data>
-  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
-</edge>
 <edge source="12345069443" target="1905157916">
   <data key="d2">0.0007294007414396827</data>
   <data key="d3">{"highway": "service", "motorcar": "no", "service": "alley", "id": "180082702"}</data>
@@ -22003,14 +21295,6 @@
   <data key="d2">0.0009257721030317882</data>
   <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1351520815"}</data>
 </edge>
-<edge source="12612823558" target="7401211873">
-  <data key="d2">0.0006902200271211283</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
-<edge source="12612823558" target="7401211871">
-  <data key="d2">0.0011954157932381043</data>
-  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
-</edge>
 <edge source="12669487962" target="1497970370">
   <data key="d2">0.0003187259911348904</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "maxheight": "4.5", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "surface": "asphalt", "turn:lanes": "left|left;through|through|through", "id": "711052546"}</data>
@@ -22031,24 +21315,12 @@
   <data key="d2">0.0005534747420279265</data>
   <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
 </edge>
-<edge source="12669487971" target="5716457465">
-  <data key="d2">6.629586134546499e-05</data>
-  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
-</edge>
-<edge source="12726065966" target="7119373780">
-  <data key="d2">0.002707478762199709</data>
+<edge source="12726065966" target="24">
+  <data key="d2">0.0010595722162813374</data>
   <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
 </edge>
 <edge source="12726065967" target="8093872387">
   <data key="d2">0.0007346748879082418</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
-</edge>
-<edge source="12726065968" target="7119373782">
-  <data key="d2">0.0012232317317819263</data>
-  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
-</edge>
-<edge source="12726065969" target="10131967154">
-  <data key="d2">0.0009624571027438981</data>
   <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
 </edge>
 <edge source="12783034921" target="10131967279">
@@ -22058,5 +21330,121 @@
 <edge source="12783034921" target="98024382">
   <data key="d2">0.0004871228856243168</data>
   <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "maxheight": "4.5", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "sidewalk:right:surface": "paving_stones", "smoothness": "excellent", "surface": "asphalt", "id": "136557833"}</data>
+</edge>
+<edge source="1" target="11143123401">
+  <data key="d2">0.0036544486113035462</data>
+  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "11007689"}</data>
+</edge>
+<edge source="2" target="10130533953">
+  <data key="d2">0.0010353978156142547</data>
+  <data key="d3">{"highway": "secondary", "lanes": "4", "lit": "yes", "name": "Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "name:en": "Ton That Tung Street", "oneway": "no", "surface": "asphalt", "id": "11007920"}</data>
+</edge>
+<edge source="3" target="1495022978">
+  <data key="d2">0.0002448782900298546</data>
+  <data key="d3">{"highway": "tertiary", "lane_markings": "no", "maxspeed:type": "VN:urban", "name": "Ng\u00f5 120 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "11707208"}</data>
+</edge>
+<edge source="4" target="104839740">
+  <data key="d2">0.0013110075165117829</data>
+  <data key="d3">{"highway": "tertiary_link", "lanes": "1", "lit": "yes", "surface": "asphalt", "id": "11711910"}</data>
+</edge>
+<edge source="5" target="9582206603">
+  <data key="d2">0.0028046691703818797</data>
+  <data key="d3">{"highway": "residential", "name": "Ng\u00f5 4D \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "25953589"}</data>
+</edge>
+<edge source="6" target="11849697359">
+  <data key="d2">0.0004290487428255566</data>
+  <data key="d3">{"highway": "residential", "id": "25953590"}</data>
+</edge>
+<edge source="7" target="5718922736">
+  <data key="d2">0.0002906840615703511</data>
+  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u00e0o Duy Anh", "name:en": "Dao Duy Anh Street", "oneway": "no", "sidewalk": "both", "surface": "asphalt", "id": "29313247"}</data>
+</edge>
+<edge source="10" target="8059095252">
+  <data key="d2">0.004703087776748365</data>
+  <data key="d3">{"highway": "service", "name": "Ng\u00f5 6 \u0110\u1eb7ng V\u0103n Ng\u1eef", "surface": "asphalt", "id": "179996740"}</data>
+</edge>
+<edge source="11" target="5710482871">
+  <data key="d2">0.0010977668817836737</data>
+  <data key="d3">{"highway": "service", "id": "219977471"}</data>
+</edge>
+<edge source="12" target="2291055780">
+  <data key="d2">0.0018015986254958653</data>
+  <data key="d3">{"highway": "service", "id": "219977471"}</data>
+</edge>
+<edge source="13" target="1497969799">
+  <data key="d2">0.0001585854661702962</data>
+  <data key="d3">{"highway": "primary", "lanes": "2", "lit": "yes", "maxspeed": "60", "name": "Ph\u1ed1 X\u00e3 \u0110\u00e0n", "name:en": "Xa Dan Street", "name:zh": "\u793e\u575b\u8857", "oneway": "yes", "sidewalk": "right", "smoothness": "excellent", "surface": "asphalt", "id": "399835468"}</data>
+</edge>
+<edge source="14" target="5686449795">
+  <data key="d2">0.001562890097269892</data>
+  <data key="d3">{"bicycle": "yes", "foot": "yes", "highway": "residential", "name": "Ng\u00f5 102 Tr\u01b0\u1eddng Chinh", "sidewalk": "both", "surface": "asphalt", "id": "546999873"}</data>
+</edge>
+<edge source="15" target="10997015889">
+  <data key="d2">0.0003586801450156522</data>
+  <data key="d3">{"highway": "residential", "name": "Ph\u1ed1 Tam Kh\u01b0\u01a1ng", "name:en": "Tam Khuong Street", "old_name": "Ng\u00f5 139 Kh\u01b0\u01a1ng Th\u01b0\u1ee3ng", "surface": "asphalt", "id": "596721713"}</data>
+</edge>
+<edge source="16" target="12184246241">
+  <data key="d2">0.00032433238893592533</data>
+  <data key="d3">{"highway": "service", "surface": "asphalt", "id": "601448200"}</data>
+</edge>
+<edge source="17" target="5721877139">
+  <data key="d2">0.00083955726242588</data>
+  <data key="d3">{"highway": "service", "name": "Ng\u00f5 34 Ph\u01b0\u01a1ng Mai", "service": "alley", "surface": "asphalt", "id": "675260241"}</data>
+</edge>
+<edge source="18" target="6688471376">
+  <data key="d2">0.0006498680919096201</data>
+  <data key="d3">{"highway": "primary", "lanes": "5", "lit": "yes", "name": "\u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "name:en": "Truong Chinh Road", "oneway": "yes", "sidewalk": "right", "surface": "asphalt", "id": "704089866"}</data>
+</edge>
+<edge source="19" target="8130248914">
+  <data key="d2">0.00027726387226899036</data>
+  <data key="d3">{"bicycle": "no", "foot": "no", "highway": "primary", "horse": "no", "lanes": "2", "lit": "yes", "maxspeed": "60", "moped:lanes": "no|designated", "motorcar:lanes": "designated|no", "motorcycle:lanes": "no|designated", "name": "H\u1ea7m chui Kim Li\u00ean", "name:en": "Kim Lien Underpass", "oneway": "yes", "sidewalk": "no", "smoothness": "excellent", "surface": "asphalt", "id": "709360971"}</data>
+</edge>
+<edge source="20" target="1497970366">
+  <data key="d2">0.0008004051094147148</data>
+  <data key="d3">{"highway": "residential", "lanes": "1", "name": "Ph\u1ed1 Kim Hoa", "name:en": "Kim Hoa Street", "surface": "asphalt", "id": "709360979"}</data>
+</edge>
+<edge source="22" target="7401211860">
+  <data key="d2">0.0025235377013959758</data>
+  <data key="d3">{"highway": "service", "motorcar": "no", "name": "Ng\u00f5 72 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "791684661"}</data>
+</edge>
+<edge source="23" target="7119384385">
+  <data key="d2">0.0015306962181760512</data>
+  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460790"}</data>
+</edge>
+<edge source="25" target="12726065967">
+  <data key="d2">0.001886383577203338</data>
+  <data key="d3">{"bicycle": "no", "bridge": "yes", "foot": "no", "highway": "trunk", "horse": "no", "lanes": "2", "layer": "2", "lit": "yes", "maxspeed": "80", "moped": "no", "motor_vehicle": "yes", "motorcar": "yes", "motorcycle": "no", "motorroad": "yes", "name": "\u0110\u01b0\u1eddng V\u00e0nh \u0111ai 2", "name:en": "Ring Road 2", "oneway": "yes", "shoulder": "no", "sidewalk": "no", "surface": "asphalt", "id": "856460791"}</data>
+</edge>
+<edge source="27" target="8277275821">
+  <data key="d2">0.0004102701107584387</data>
+  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "890573962"}</data>
+</edge>
+<edge source="28" target="11508021926">
+  <data key="d2">0.0026315565853378175</data>
+  <data key="d3">{"highway": "service", "motorcar": "no", "motorcycle": "yes", "id": "890573985"}</data>
+</edge>
+<edge source="29" target="9580258005">
+  <data key="d2">0.002326887482735341</data>
+  <data key="d3">{"highway": "service", "id": "1040482748"}</data>
+</edge>
+<edge source="31" target="10941195746">
+  <data key="d2">0.0020868337462906696</data>
+  <data key="d3">{"highway": "service", "id": "1177745698"}</data>
+</edge>
+<edge source="32" target="10997015893">
+  <data key="d2">0.0021473041252809432</data>
+  <data key="d3">{"highway": "service", "id": "1184189718"}</data>
+</edge>
+<edge source="33" target="1758642519">
+  <data key="d2">0.0029191661715402793</data>
+  <data key="d3">{"highway": "service", "motorcar": "destination", "service": "alley", "id": "1236853246"}</data>
+</edge>
+<edge source="34" target="10090093643">
+  <data key="d2">0.0005640486554238563</data>
+  <data key="d3">{"highway": "tertiary", "lanes": "2", "lit": "yes", "name": "Ph\u1ed1 \u0110\u1eb7ng V\u0103n Ng\u1eef", "name:en": "Dang Van Ngu Street", "oneway": "no", "surface": "asphalt", "id": "1276334499"}</data>
+</edge>
+<edge source="35" target="7401242710">
+  <data key="d2">0.00019549851481190264</data>
+  <data key="d3">{"alt_name": "Ng\u00f5 354 \u0110\u01b0\u1eddng Tr\u01b0\u1eddng Chinh", "highway": "service", "motorcar": "no", "name": "Ng\u00f5 22 Ph\u1ed1 T\u00f4n Th\u1ea5t T\u00f9ng", "service": "alley", "id": "1362302993"}</data>
 </edge>
 </graph></graphml>
