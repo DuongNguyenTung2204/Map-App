@@ -92,18 +92,6 @@ def project_to_edge(G, u, v, target_lat, target_lng):
     return proj_x, proj_y, dist, t
 
 def snap_to_edge(G, target_lat, target_lng, max_distance_km=0.5):
-    bounds = {
-        'min_lat': 21.00017,
-        'min_lon': 105.82875,
-        'max_lat': 21.01114,
-        'max_lon': 105.83827
-    }
-
-    if not (bounds['min_lat'] <= target_lat <= bounds['max_lat'] and
-            bounds['min_lon'] <= target_lng <= bounds['max_lon']):
-        logging.error("Tọa độ ngoài vùng phủ sóng")
-        return None, G
-
     min_dist = float('inf')
     closest_edge = None
     closest_point = None
@@ -221,8 +209,11 @@ def find_route(start_lat, start_lng, end_lat, end_lng, graph,
             logging.error("Không tìm thấy đường đi")
             return []
 
-        route = [[G_modified.nodes[node]['lat'], G_modified.nodes[node]['lon']] for node in path]
-        logging.info(f"Tìm thấy đường đi với {len(route)} điểm")
+        # Tạo route với start và end tọa độ gốc
+        route = [[start_lat, start_lng]] + \
+                [[G_modified.nodes[node]['lat'], G_modified.nodes[node]['lon']] for node in path] + \
+                [[end_lat, end_lng]]
+        logging.info(f"Tìm thấy đường đi với {len(route)} điểm, bắt đầu tại ({start_lat}, {start_lng}), kết thúc tại ({end_lat}, {end_lng})")
         return route
 
     except Exception as e:
