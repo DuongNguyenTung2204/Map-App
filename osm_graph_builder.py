@@ -3,6 +3,7 @@ import networkx as nx
 import math
 import json
 import logging
+import re
 
 # Thiết lập logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -15,6 +16,36 @@ def haversine(lon1, lat1, lon2, lat2):
     a = math.sin(dlat/2)**2 + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2)) * math.sin(dlon/2)**2
     c = 2 * math.asin(math.sqrt(a))
     return R * c
+
+# Hàm lấy tốc độ từ tags
+def get_speed(tags):
+    # Tốc độ mặc định theo loại đường (km/h)
+    default_speeds = {
+        'motorway': 80, 'motorway_link': 80,
+        'trunk': 60, 'trunk_link': 60,
+        'primary': 50, 'primary_link': 50,
+        'secondary': 40, 'secondary_link': 40,
+        'tertiary': 30, 'tertiary_link': 30,
+        'unclassified': 25, 'residential': 25,
+        'service': 20,
+        'track': 15
+    }
+
+    # Lấy maxspeed từ tags
+    maxspeed = tags.get('maxspeed')
+    if maxspeed:
+        # Xử lý các định dạng maxspeed (ví dụ: "50", "50 km/h", "30 mph")
+        match = re.match(r'^(\d+)\s*(km/h|mph)?$', maxspeed)
+        if match:
+            speed = int(match.group(1))
+            unit = match.group(2)
+            if unit == 'mph':
+                speed = speed * 1.60934  # Chuyển mph sang km/h
+            return speed
+
+    # Nếu không có maxspeed hợp lệ, dùng tốc độ mặc định
+    highway_type = tags.get('highway', 'unclassified')
+    return default_speeds.get(highway_type, 25)  # Mặc định 25 km/h nếu không xác định
 
 # Class để xử lý file OSM
 class RoadGraphHandler(osmium.SimpleHandler):
@@ -56,10 +87,17 @@ class RoadGraphHandler(osmium.SimpleHandler):
             if n1 in self.nodes and n2 in self.nodes:
                 lat1, lon1 = self.nodes[n1]
                 lat2, lon2 = self.nodes[n2]
-                weight = haversine(lon1, lat1, lon2, lat2)
+                # Tính chiều dài đoạn đường (km)
+                length = haversine(lon1, lat1, lon2, lat2)
+                # Lấy tốc độ (km/h)
+                speed = get_speed(tags)
+                # Tính trọng số = thời gian di chuyển (giờ)
+                weight = length / speed
                 self.edges.append((n1, n2, weight, tags))
                 if not is_oneway:
-                    self.edges.append((n2, n1, weight, tags))  # Thêm cạnh ngược lại nếu không phải một chiều
+                    self.edges.append((n2, n1, weight, tags))  # Thêm cạnh ngược lại
+                logging.info(f"Cạnh ({n1}, {n2}), way_id={tags['id']}, length={length:.3f} km, "
+                             f"speed={speed} km/h, weight={weight:.6f} giờ")
 
 def build_graph(osm_file, graphml_file='road_network.graphml'):
     logging.info(f"Xây dựng đồ thị từ file OSM: {osm_file}")
