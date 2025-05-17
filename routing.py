@@ -28,18 +28,6 @@ def haversine(lon1, lat1, lon2, lat2):
     distance = R * c
     return distance
 
-def load_graph(graphml_file):
-    try:
-        G = nx.read_graphml(graphml_file, node_type=int)
-        for node in G.nodes:
-            G.nodes[node]['lat'] = float(G.nodes[node]['lat'])
-            G.nodes[node]['lon'] = float(G.nodes[node]['lon'])
-        logging.info(f"Đã tải đồ thị với {G.number_of_nodes()} node và {G.number_of_edges()} cạnh")
-        return G
-    except Exception as e:
-        logging.error(f"Lỗi tải đồ thị: {str(e)}")
-        return None
-
 def get_blocked_ways(db_config):
     try:
         conn = mysql.connector.connect(**db_config)
@@ -200,7 +188,7 @@ def a_star_path(G, source, target, end_lat, end_lng):
     logging.warning(f"Không tìm thấy đường từ {source} đến {target}")
     return []
 
-def find_route(start_lat, start_lng, end_lat, end_lng, graphml_file="road_network.graphml",
+def find_route(start_lat, start_lng, end_lat, end_lng, graph,
                db_config={'host': 'localhost', 'user': 'root', 'password': '', 'database': 'map_app'},
                penalty_factors={'slow': 2, 'blocked': 10, 'closed': 1000}):
     try:
@@ -208,12 +196,11 @@ def find_route(start_lat, start_lng, end_lat, end_lng, graphml_file="road_networ
             logging.error("Không thể kết nối CSDL")
             return []
 
-        G = load_graph(graphml_file)
-        if G is None:
-            logging.error("Không thể tải đồ thị")
+        if graph is None:
+            logging.error("Đồ thị không được cung cấp")
             return []
 
-        start_node, G = snap_to_edge(G, start_lat, start_lng)
+        start_node, G = snap_to_edge(graph, start_lat, start_lng)
         if start_node is None:
             logging.error(f"Không snap được điểm bắt đầu tại ({start_lat}, {start_lng})")
             return []

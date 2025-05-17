@@ -10,7 +10,7 @@ from user_interface import Ui_MainWindow as Ui_UserMainWindow
 import os
 import json
 import logging
-from overpass_utils import find_nearest_way
+from overpass_utils import find_nearest_way, load_graph
 from routing import find_route
 
 # Thiết lập logging
@@ -129,6 +129,7 @@ class AdminMainWindow(QMainWindow):
             'password': '',
             'database': 'map_app'
         }
+        self.graph = None  # Khởi tạo graph là None
 
         self.setWindowFlags(Qt.Window | Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint)
         self.setMinimumSize(800, 600)
@@ -234,7 +235,7 @@ class AdminMainWindow(QMainWindow):
             </html>
             """
 
-            self.temp_file = os.path.join(os.path.dirname(__file__), "admin_map_temp.html")
+            self.temp_file = os.path.join(os.path.dirname(__file__), "map.html")
             with open(self.temp_file, 'w', encoding='utf-8') as f:
                 f.write(html_template)
 
@@ -328,7 +329,13 @@ class AdminMainWindow(QMainWindow):
 
     def find_nearest_way(self, marker_lat, marker_lon):
         try:
-            way_id, way_nodes = find_nearest_way(marker_lat, marker_lon)
+            # Tải đồ thị nếu chưa có (lazy loading)
+            if self.graph is None:
+                self.graph = load_graph('road_network.graphml')
+                if self.graph is None:
+                    raise Exception("Không thể tải đồ thị")
+
+            way_id, way_nodes = find_nearest_way(marker_lat, marker_lon, self.graph)
             if way_id and way_nodes:
                 if self.deleting_traffic:
                     query = "SELECT way_id FROM traffic_changes WHERE way_id = %s LIMIT 1"
@@ -607,6 +614,8 @@ class AdminMainWindow(QMainWindow):
             self.cursor.close()
             self.db.close()
             logging.info("Đóng kết nối CSDL trong AdminMainWindow")
+        # Giải phóng đồ thị
+        self.graph = None
         event.accept()
 
 class UserMainWindow(QMainWindow):
@@ -623,6 +632,7 @@ class UserMainWindow(QMainWindow):
             'password': '',
             'database': 'map_app'
         }
+        self.graph = None  # Khởi tạo graph là None
 
         self.setWindowFlags(Qt.Window | Qt.WindowMinMaxButtonsHint | Qt.WindowCloseButtonHint)
         self.setMinimumSize(800, 600)
@@ -729,7 +739,7 @@ class UserMainWindow(QMainWindow):
             </html>
             """
 
-            self.temp_file = os.path.join(os.path.dirname(__file__), "user_map_temp.html")
+            self.temp_file = os.path.join(os.path.dirname(__file__), "map.html")
             with open(self.temp_file, 'w', encoding='utf-8') as f:
                 f.write(html_template)
 
@@ -872,7 +882,18 @@ class UserMainWindow(QMainWindow):
         start_lat, start_lng = self.start
         end_lat, end_lng = self.end
 
-        route = find_route(start_lat, start_lng, end_lat, end_lng)
+        # Tải đồ thị nếu chưa có (lazy loading)
+        try:
+            if self.graph is None:
+                self.graph = load_graph('road_network.graphml')
+                if self.graph is None:
+                    raise Exception("Không thể tải đồ thị")
+        except Exception as e:
+            logging.error(f"Lỗi tải đồ thị: {e}")
+            QMessageBox.critical(self, "Lỗi", f"Không thể tải đồ thị: {str(e)}")
+            return
+
+        route = find_route(start_lat, start_lng, end_lat, end_lng, self.graph)
 
         if route:
             route_json = json.dumps(route)
@@ -918,6 +939,8 @@ class UserMainWindow(QMainWindow):
             self.cursor.close()
             self.db.close()
             logging.info("Đóng kết nối CSDL trong UserMainWindow")
+        # Giải phóng đồ thị
+        self.graph = None
         event.accept()
 
 if __name__ == "__main__":

@@ -35,22 +35,21 @@ def distance_point_to_segment(px, py, x1, y1, x2, y2):
     projection_y = y1 + t * dy
     return ((px - projection_x) ** 2 + (py - projection_y) ** 2) ** 0.5
 
-def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
+def find_nearest_way(lat, lon, graph):
     """
     Tìm đoạn đường gần nhất với tọa độ (lat, lon) bằng cách duyệt tất cả các cạnh trong đồ thị.
     Trả về way_id và danh sách tọa độ của các node trên đoạn đường đó, sắp xếp theo thứ tự liên tục.
     """
     try:
-        G = load_graph(graphml_file)
         min_dist = float('inf')
         nearest_way_id = None
         nearest_way_nodes = []
         nearest_edge = None
         
         # Duyệt qua tất cả các cạnh trong đồ thị
-        for u, v, data in G.edges(data=True):
-            u_lat, u_lon = G.nodes[u]['lat'], G.nodes[u]['lon']
-            v_lat, v_lon = G.nodes[v]['lat'], G.nodes[v]['lon']
+        for u, v, data in graph.edges(data=True):
+            u_lat, u_lon = graph.nodes[u]['lat'], graph.nodes[u]['lon']
+            v_lat, v_lon = graph.nodes[v]['lat'], graph.nodes[v]['lon']
             distance = distance_point_to_segment(lat, lon, u_lat, u_lon, v_lat, v_lon)
             if distance < min_dist:
                 min_dist = distance
@@ -68,7 +67,7 @@ def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
             # Tìm tất cả các cạnh có cùng way_id để lấy đầy đủ node
             way_nodes = set()
             subgraph_edges = []
-            for x, y, edge_data in G.edges(data=True):
+            for x, y, edge_data in graph.edges(data=True):
                 try:
                     edge_tags = json.loads(edge_data['tags'])
                     if edge_tags.get('id') == nearest_way_id:
@@ -79,13 +78,13 @@ def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
                     continue
             
             # Tạo đồ thị con từ các cạnh của way
-            subgraph = G.edge_subgraph(subgraph_edges).copy()
+            subgraph = graph.edge_subgraph(subgraph_edges).copy()
             
             # Sắp xếp node theo đường đi liên tục
             if way_nodes:
                 u, v = nearest_edge
                 # Chọn node đầu gần nhất với cạnh gần nhất
-                start_node = min(way_nodes, key=lambda n: ((G.nodes[n]['lat'] - G.nodes[u]['lat'])**2 + (G.nodes[n]['lon'] - G.nodes[u]['lon'])**2)**0.5)
+                start_node = min(way_nodes, key=lambda n: ((graph.nodes[n]['lat'] - graph.nodes[u]['lat'])**2 + (graph.nodes[n]['lon'] - graph.nodes[u]['lon'])**2)**0.5)
                 
                 # Tìm đường đi bao phủ tất cả node trong way_nodes
                 sorted_nodes = [start_node]
@@ -112,11 +111,11 @@ def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
                         remaining_nodes.remove(next_node)
                     else:
                         # Nếu không tìm thấy đường đi, thêm node gần nhất theo khoảng cách Euclidean
-                        next_node = min(remaining_nodes, key=lambda n: ((G.nodes[n]['lat'] - G.nodes[current_node]['lat'])**2 + (G.nodes[n]['lon'] - G.nodes[current_node]['lon'])**2)**0.5)
+                        next_node = min(remaining_nodes, key=lambda n: ((graph.nodes[n]['lat'] - graph.nodes[current_node]['lat'])**2 + (graph.nodes[n]['lon'] - graph.nodes[current_node]['lon'])**2)**0.5)
                         sorted_nodes.append(next_node)
                         remaining_nodes.remove(next_node)
                 
-                nearest_way_nodes = [[G.nodes[node]['lat'], G.nodes[node]['lon']] for node in sorted_nodes]
+                nearest_way_nodes = [[graph.nodes[node]['lat'], graph.nodes[node]['lon']] for node in sorted_nodes]
         
         max_distance_m = 50
         if nearest_way_id and min_dist * 111000 < max_distance_m:
@@ -128,4 +127,3 @@ def find_nearest_way(lat, lon, graphml_file='road_network.graphml'):
     except Exception as e:
         logging.error(f"Lỗi khi tìm đoạn đường: {e}")
         raise
-
