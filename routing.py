@@ -43,9 +43,10 @@ def get_blocked_ways(db_config):
         logging.error(f"Lỗi truy vấn traffic_changes: {str(e)}")
         return set()
 
-def apply_traffic_penalties(G, db_config, penalty_factors={'slow': 2, 'blocked': 10, 'closed': 1000}):
+def apply_traffic_penalties(G, db_config, penalty_factors={'slow': 2, 'blocked': 10}):
     G_modified = G.copy()
     blocked_edges = 0
+    edges_to_remove = []
     try:
         conn = mysql.connector.connect(**db_config)
         cursor = conn.cursor(dictionary=True)
@@ -56,19 +57,33 @@ def apply_traffic_penalties(G, db_config, penalty_factors={'slow': 2, 'blocked':
                 query = "SELECT traffic_type FROM traffic_changes WHERE way_id = %s"
                 cursor.execute(query, (way_id,))
                 result = cursor.fetchone()
-                if result and result['traffic_type'] in penalty_factors:
-                    original_weight = data['weight']
-                    penalty = penalty_factors[result['traffic_type']]
-                    data['weight'] = data['weight'] * penalty
-                    blocked_edges += 1
-                    logging.info(f"Áp dụng phạt cho cạnh ({u}, {v}), way_id: {way_id}, traffic_type: {result['traffic_type']}, trọng số cũ: {original_weight:.3f}, trọng số mới: {data['weight']:.3f}")
+                if result:
+                    traffic_type = result['traffic_type']
+                    if traffic_type == 'closed':
+                        edges_to_remove.append((u, v))
+                    elif traffic_type in penalty_factors:
+                        original_weight = data['weight']
+                        penalty = penalty_factors[traffic_type]
+                        data['weight'] = original_weight * penalty
+                        blocked_edges += 1
+                        logging.info(f"Áp dụng phạt cho cạnh ({u}, {v}), way_id: {way_id}, traffic_type: {traffic_type}, trọng số cũ: {original_weight:.3f}, trọng số mới: {data['weight']:.3f}")
             except (json.JSONDecodeError, KeyError):
                 continue
+
+        # Xóa các cạnh có trạng thái 'closed'
+        for u, v in edges_to_remove:
+            if G_modified.has_edge(u, v):  # Kiểm tra cạnh tồn tại
+                G_modified.remove_edge(u, v)
+            if G_modified.has_edge(v, u):  # Kiểm tra cạnh ngược
+                G_modified.remove_edge(v, u)
+            blocked_edges += 1
+            logging.info(f"Xóa cạnh ({u}, {v}) do trạng thái closed, way_id: {way_id}")
+
         cursor.close()
         conn.close()
     except mysql.connector.Error as err:
         logging.error(f"Lỗi truy vấn CSDL trong apply_traffic_penalties: {err}")
-    logging.info(f"Áp dụng phạt cho {blocked_edges} cạnh")
+    logging.info(f"Áp dụng phạt hoặc xóa cho {blocked_edges} cạnh")
     return G_modified
 
 def project_to_edge(G, u, v, target_lat, target_lng):
