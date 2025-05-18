@@ -70,11 +70,10 @@ def apply_traffic_penalties(G, db_config, penalty_factors={'slow': 2, 'blocked':
             except (json.JSONDecodeError, KeyError):
                 continue
 
-        # Xóa các cạnh có trạng thái 'closed'
         for u, v in edges_to_remove:
-            if G_modified.has_edge(u, v):  # Kiểm tra cạnh tồn tại
+            if G_modified.has_edge(u, v):
                 G_modified.remove_edge(u, v)
-            if G_modified.has_edge(v, u):  # Kiểm tra cạnh ngược
+            if G_modified.has_edge(v, u):
                 G_modified.remove_edge(v, u)
             blocked_edges += 1
             logging.info(f"Xóa cạnh ({u}, {v}) do trạng thái closed, way_id: {way_id}")
@@ -158,11 +157,14 @@ def snap_to_edge(G, target_lat, target_lng, max_distance_km=0.5):
     return new_node, G_modified
 
 def a_star_path(G, source, target, end_lat, end_lng):
+    max_speed = 100  # Tốc độ tối đa (km/h) cho heuristic
     open_set = [(0, source, [source])]
     heapq.heapify(open_set)
     closed_set = set()
     g_score = {source: 0}
-    f_score = {source: haversine(G.nodes[source]['lon'], G.nodes[source]['lat'], end_lng, end_lat)}
+    # Chuyển khoảng cách Haversine thành thời gian (giờ)
+    distance_km = haversine(G.nodes[source]['lon'], G.nodes[source]['lat'], end_lng, end_lat)
+    f_score = {source: distance_km / max_speed}  # Thời gian ước lượng (giờ)
 
     while open_set:
         _, current, path = heapq.heappop(open_set)
@@ -183,8 +185,8 @@ def a_star_path(G, source, target, end_lat, end_lng):
 
             if neighbor not in g_score or tentative_g_score < g_score[neighbor]:
                 g_score[neighbor] = tentative_g_score
-                f_score[neighbor] = tentative_g_score + haversine(
-                    G.nodes[neighbor]['lon'], G.nodes[neighbor]['lat'], end_lng, end_lat)
+                distance_km = haversine(G.nodes[neighbor]['lon'], G.nodes[neighbor]['lat'], end_lng, end_lat)
+                f_score[neighbor] = tentative_g_score + distance_km / max_speed
                 new_path = path + [neighbor]
                 heapq.heappush(open_set, (f_score[neighbor], neighbor, new_path))
 
@@ -224,7 +226,6 @@ def find_route(start_lat, start_lng, end_lat, end_lng, graph,
             logging.error("Không tìm thấy đường đi")
             return []
 
-        # Tạo route với start và end tọa độ gốc
         route = [[start_lat, start_lng]] + \
                 [[G_modified.nodes[node]['lat'], G_modified.nodes[node]['lon']] for node in path] + \
                 [[end_lat, end_lng]]
